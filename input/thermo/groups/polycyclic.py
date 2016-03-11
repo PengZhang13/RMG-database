@@ -541,8 +541,20 @@ u"""
 )
 
 entry(
-    index = 16,
+    index = 0,
     label = "s1_4_4_ene",
+    group = "OR{s1_4_4_ene_1}",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 16,
+    label = "s1_4_4_ene_1",
     group = 
 """
 1   Cs u0 {2,S} {3,S} {4,S} {5,S}
@@ -567,8 +579,20 @@ u"""
 )
 
 entry(
-    index = 17,
+    index = 0,
     label = "s1_4_4_diene",
+    group = "OR{s1_4_4_diene_1_5}",
+    thermo = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 17,
+    label = "s1_4_4_diene_1_5",
     group = 
 """
 1   Cs u0 {2,S} {3,S} {4,S} {5,S}
@@ -977,7 +1001,7 @@ u"""
 entry(
     index = 0,
     label = "s1_4_6_diene",
-    group = "OR{s1_4_6_diene_1_3, s1_4_6_diene_1_7, s1_4_6_diene_2_7}",
+    group = "OR{s1_4_6_diene_1_3, s1_4_6_diene_1_4, s1_4_6_diene_1_7, s1_4_6_diene_2_7}",
     thermo = None,
     shortDesc = u"""""",
     longDesc = 
@@ -3286,7 +3310,7 @@ u"""
 entry(
     index = 0,
     label = "s2_5_6_diene",
-    group = "OR{s2_5_6_diene_m_1, s2_5_6_diene_m_2, s2_5_6_diene_m_7, s2_5_6_diene_0_2, s2_5_6_diene_0_3, s2_5_6_diene_0_4, s2_5_6_diene_0_5, s2_5_6_diene_0_7, s2_5_6_diene_1_3, s2_5_6_diene_1_5, s2_5_6_diene_1_7, s2_5_6_diene_2_5, s2_5_6_diene_2_6, s2_5_6_diene_5_7, s2_5_6_diene_5_8}",
+    group = "OR{s2_5_6_diene_m_1, s2_5_6_diene_m_2, s2_5_6_diene_m_7, s2_5_6_diene_0_2, s2_5_6_diene_0_3, s2_5_6_diene_0_4, s2_5_6_diene_0_5, s2_5_6_diene_0_6, s2_5_6_diene_0_7, s2_5_6_diene_1_3, s2_5_6_diene_1_5, s2_5_6_diene_1_6, s2_5_6_diene_1_7, s2_5_6_diene_2_5, s2_5_6_diene_2_6, s2_5_6_diene_5_7, s2_5_6_diene_5_8}",
     thermo = None,
     shortDesc = u"""""",
     longDesc = 
@@ -5751,7 +5775,9 @@ L1: PolycyclicRing
     L2: s1_4_4
         L3: s1_4_4_ane
         L3: s1_4_4_ene
+            L4: s1_4_4_ene_1
         L3: s1_4_4_diene
+            L4: s1_4_4_diene_1_5
     L2: s1_4_5
         L3: s1_4_5_ane
         L3: s1_4_5_ene
