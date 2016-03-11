@@ -6,6 +6,11 @@ species(
     label='s3_6_6_ene_yne_1_8',
     structure=SMILES("C1(CCC2)C=C2C#CC1"),
 )
+
+species(
+    label='s3_6_6_a',
+    structure=SMILES("C1(CCC2)C=C2C=C=C1"),
+)
 quantumMechanics(
     software='mopac',
     method='pm7',
