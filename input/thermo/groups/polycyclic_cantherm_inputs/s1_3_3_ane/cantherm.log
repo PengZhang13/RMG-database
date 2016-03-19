@@ -1,0 +1,149 @@
+CanTherm execution initiated at Sat Mar 19 14:15:48 2016
+
+###############################################################
+#                                                             #
+#                          CanTherm                           #
+#                                                             #
+#   Version: 0.1.0 (14 May 2009)                              #
+#   Authors: RMG Developers (rmg_dev@mit.edu)                 #
+#   P.I.:    William H. Green (whgreen@mit.edu)               #
+#   Website: http://rmg.sourceforge.net/                      #
+#                                                             #
+###############################################################
+
+Loading species s1_3_3_ane...
+
+
+Loading statistical mechanics parameters for s1_3_3_ane...
+Warning: Unknown model chemistry "M06-2X"; not applying energy corrections.
+Saving statistical mechanics parameters for s1_3_3_ane...
+Generating NASA thermo model for s1_3_3_ane...
+Saving thermo for s1_3_3_ane...
+
+CanTherm execution terminated at Sat Mar 19 14:15:48 2016
+Memory used: 62.80 MB
+CanTherm execution initiated at Sat Mar 19 14:19:05 2016
+
+###############################################################
+#                                                             #
+#                          CanTherm                           #
+#                                                             #
+#   Version: 0.1.0 (14 May 2009)                              #
+#   Authors: RMG Developers (rmg_dev@mit.edu)                 #
+#   P.I.:    William H. Green (whgreen@mit.edu)               #
+#   Website: http://rmg.sourceforge.net/                      #
+#                                                             #
+###############################################################
+
+Loading species s1_3_3_ane...
+
+
+Loading statistical mechanics parameters for s1_3_3_ane...
+Warning: No bond energy correction found for model chemistry: M06-2X
+Saving statistical mechanics parameters for s1_3_3_ane...
+Generating NASA thermo model for s1_3_3_ane...
+Saving thermo for s1_3_3_ane...
+
+CanTherm execution terminated at Sat Mar 19 14:19:05 2016
+Memory used: 64.79 MB
+CanTherm execution initiated at Sat Mar 19 16:47:45 2016
+
+###############################################################
+#                                                             #
+#                          CanTherm                           #
+#                                                             #
+#   Version: 0.1.0 (14 May 2009)                              #
+#   Authors: RMG Developers (rmg_dev@mit.edu)                 #
+#   P.I.:    William H. Green (whgreen@mit.edu)               #
+#   Website: http://rmg.sourceforge.net/                      #
+#                                                             #
+###############################################################
+
+Loading species s1_3_3_ane...
+
+
+Loading statistical mechanics parameters for s1_3_3_ane...
+Warning: No bond energy correction found for model chemistry: M06-2X
+Saving statistical mechanics parameters for s1_3_3_ane...
+Generating NASA thermo model for s1_3_3_ane...
+Saving thermo for s1_3_3_ane...
+CanTherm execution initiated at Sat Mar 19 16:48:34 2016
+
+###############################################################
+#                                                             #
+#                          CanTherm                           #
+#                                                             #
+#   Version: 0.1.0 (14 May 2009)                              #
+#   Authors: RMG Developers (rmg_dev@mit.edu)                 #
+#   P.I.:    William H. Green (whgreen@mit.edu)               #
+#   Website: http://rmg.sourceforge.net/                      #
+#                                                             #
+###############################################################
+
+Loading species s1_3_3_ane...
+
+
+Loading statistical mechanics parameters for s1_3_3_ane...
+Warning: No bond energy correction found for model chemistry: M06-2X
+Saving statistical mechanics parameters for s1_3_3_ane...
+Generating NASA thermo model for s1_3_3_ane...
+Saving thermo for s1_3_3_ane...
+CanTherm execution initiated at Sat Mar 19 16:49:43 2016
+
+###############################################################
+#                                                             #
+#                          CanTherm                           #
+#                                                             #
+#   Version: 0.1.0 (14 May 2009)                              #
+#   Authors: RMG Developers (rmg_dev@mit.edu)                 #
+#   P.I.:    William H. Green (whgreen@mit.edu)               #
+#   Website: http://rmg.sourceforge.net/                      #
+#                                                             #
+###############################################################
+
+Loading species s1_3_3_ane...
+
+
+Loading statistical mechanics parameters for s1_3_3_ane...
+Warning: No bond energy correction found for model chemistry: M06-2X
+Saving statistical mechanics parameters for s1_3_3_ane...
+Generating NASA thermo model for s1_3_3_ane...
+Saving thermo for s1_3_3_ane...
+CanTherm execution initiated at Sat Mar 19 16:59:04 2016
+
+###############################################################
+#                                                             #
+#                          CanTherm                           #
+#                                                             #
+#   Version: 0.1.0 (14 May 2009)                              #
+#   Authors: RMG Developers (rmg_dev@mit.edu)                 #
+#   P.I.:    William H. Green (whgreen@mit.edu)               #
+#   Website: http://rmg.sourceforge.net/                      #
+#                                                             #
+###############################################################
+
+Error: The input file 'input.py' was invalid:
+CanTherm execution initiated at Sat Mar 19 16:59:36 2016
+
+###############################################################
+#                                                             #
+#                          CanTherm                           #
+#                                                             #
+#   Version: 0.1.0 (14 May 2009)                              #
+#   Authors: RMG Developers (rmg_dev@mit.edu)                 #
+#   P.I.:    William H. Green (whgreen@mit.edu)               #
+#   Website: http://rmg.sourceforge.net/                      #
+#                                                             #
+###############################################################
+
+Loading species s1_3_3_ane...
+
+
+Loading statistical mechanics parameters for s1_3_3_ane...
+Warning: No bond energy correction found for model chemistry: M06-2X
+Saving statistical mechanics parameters for s1_3_3_ane...
+Generating NASA thermo model for s1_3_3_ane...
+Saving thermo for s1_3_3_ane...
+
+CanTherm execution terminated at Sat Mar 19 16:59:38 2016
+Memory used: 68.67 MB
