@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "Overal Thermo Estimation Library"
+name = "Overall Thermo Estimation Library"
 shortDesc = u""
 longDesc = u"""
 
@@ -898,9 +898,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([115.933,159.877,200.023,233.998,287.042,325.772,381.519],'J/(mol*K)'),
-        H298 = (114.955,'kJ/mol'),
-        S298 = (318.718,'J/(mol*K)'),
+        Cpdata = ([115.615,159.681,200.012,234.146,287.246,325.966,381.588],'J/(mol*K)'),
+        H298 = (39.4805,'kJ/mol'),
+        S298 = (318.288,'J/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1091,7 +1091,7 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([110.456,155.774,197.435,232.463,286.053,325.05,381.044],'J/(mol*K)'),
+        Cpdata = ([110.456,155.775,197.435,232.463,286.053,325.05,381.044],'J/(mol*K)'),
         H298 = (-27.5809,'kJ/mol'),
         S298 = (308.154,'J/(mol*K)'),
     ),
@@ -2037,6 +2037,50 @@ u"""
 
 entry(
     index = 56,
+    label = "s1_5_5_ane",
+    molecule = 
+"""
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {7,S} {14,S} {15,S}
+3  C u0 p0 c0 {1,S} {8,S} {16,S} {17,S}
+4  C u0 p0 c0 {1,S} {9,S} {22,S} {23,S}
+5  C u0 p0 c0 {1,S} {6,S} {24,S} {25,S}
+6  C u0 p0 c0 {5,S} {7,S} {10,S} {11,S}
+7  C u0 p0 c0 {2,S} {6,S} {12,S} {13,S}
+8  C u0 p0 c0 {3,S} {9,S} {18,S} {19,S}
+9  C u0 p0 c0 {4,S} {8,S} {20,S} {21,S}
+10 H u0 p0 c0 {6,S}
+11 H u0 p0 c0 {6,S}
+12 H u0 p0 c0 {7,S}
+13 H u0 p0 c0 {7,S}
+14 H u0 p0 c0 {2,S}
+15 H u0 p0 c0 {2,S}
+16 H u0 p0 c0 {3,S}
+17 H u0 p0 c0 {3,S}
+18 H u0 p0 c0 {8,S}
+19 H u0 p0 c0 {8,S}
+20 H u0 p0 c0 {9,S}
+21 H u0 p0 c0 {9,S}
+22 H u0 p0 c0 {4,S}
+23 H u0 p0 c0 {4,S}
+24 H u0 p0 c0 {5,S}
+25 H u0 p0 c0 {5,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([157.187,213.908,264.886,309.109,379.958,431.702,506.127],'J/(mol*K)'),
+        H298 = (-75.2568,'kJ/mol'),
+        S298 = (371.791,'J/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 57,
     label = "s1_5_5_ene_1",
     molecule = 
 """
@@ -2078,7 +2122,7 @@ u"""
 )
 
 entry(
-    index = 57,
+    index = 58,
     label = "s1_5_5_ene_2",
     molecule = 
 """
@@ -2120,7 +2164,7 @@ u"""
 )
 
 entry(
-    index = 58,
+    index = 59,
     label = "s1_5_5_diene_1_3",
     molecule = 
 """
@@ -2160,7 +2204,7 @@ u"""
 )
 
 entry(
-    index = 59,
+    index = 60,
     label = "s1_5_5_diene_1_6",
     molecule = 
 """
@@ -2200,7 +2244,7 @@ u"""
 )
 
 entry(
-    index = 60,
+    index = 61,
     label = "s1_5_5_diene_1_7",
     molecule = 
 """
@@ -2240,7 +2284,7 @@ u"""
 )
 
 entry(
-    index = 61,
+    index = 62,
     label = "s1_5_5_diene_2_7",
     molecule = 
 """
@@ -2280,7 +2324,54 @@ u"""
 )
 
 entry(
-    index = 62,
+    index = 63,
+    label = "s1_5_6_ane",
+    molecule = 
+"""
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {7,S} {15,S} {16,S}
+3  C u0 p0 c0 {1,S} {8,S} {17,S} {18,S}
+4  C u0 p0 c0 {1,S} {10,S} {25,S} {26,S}
+5  C u0 p0 c0 {1,S} {6,S} {27,S} {28,S}
+6  C u0 p0 c0 {5,S} {7,S} {11,S} {12,S}
+7  C u0 p0 c0 {2,S} {6,S} {13,S} {14,S}
+8  C u0 p0 c0 {3,S} {9,S} {19,S} {20,S}
+9  C u0 p0 c0 {8,S} {10,S} {21,S} {22,S}
+10 C u0 p0 c0 {4,S} {9,S} {23,S} {24,S}
+11 H u0 p0 c0 {6,S}
+12 H u0 p0 c0 {6,S}
+13 H u0 p0 c0 {7,S}
+14 H u0 p0 c0 {7,S}
+15 H u0 p0 c0 {2,S}
+16 H u0 p0 c0 {2,S}
+17 H u0 p0 c0 {3,S}
+18 H u0 p0 c0 {3,S}
+19 H u0 p0 c0 {8,S}
+20 H u0 p0 c0 {8,S}
+21 H u0 p0 c0 {9,S}
+22 H u0 p0 c0 {9,S}
+23 H u0 p0 c0 {10,S}
+24 H u0 p0 c0 {10,S}
+25 H u0 p0 c0 {4,S}
+26 H u0 p0 c0 {4,S}
+27 H u0 p0 c0 {5,S}
+28 H u0 p0 c0 {5,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([174.122,238.36,295.872,345.735,425.618,483.97,568.006],'J/(mol*K)'),
+        H298 = (-117.475,'kJ/mol'),
+        S298 = (385.284,'J/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 64,
     label = "s1_5_6_ene_1",
     molecule = 
 """
@@ -2325,7 +2416,52 @@ u"""
 )
 
 entry(
-    index = 63,
+    index = 65,
+    label = "s1_5_6_ene_2",
+    molecule = 
+"""
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
+2  C u0 p0 c0 {1,S} {6,S} {15,S} {16,S}
+3  C u0 p0 c0 {1,S} {5,S} {19,S} {20,S}
+4  C u0 p0 c0 {1,S} {8,S} {17,S} {18,S}
+5  C u0 p0 c0 {3,S} {6,S} {11,S} {12,S}
+6  C u0 p0 c0 {2,S} {5,S} {13,S} {14,S}
+7  C u0 p0 c0 {1,S} {10,S} {23,S} {24,S}
+8  C u0 p0 c0 {4,S} {9,S} {21,S} {22,S}
+9  C u0 p0 c0 {8,S} {10,D} {25,S}
+10 C u0 p0 c0 {7,S} {9,D} {26,S}
+11 H u0 p0 c0 {5,S}
+12 H u0 p0 c0 {5,S}
+13 H u0 p0 c0 {6,S}
+14 H u0 p0 c0 {6,S}
+15 H u0 p0 c0 {2,S}
+16 H u0 p0 c0 {2,S}
+17 H u0 p0 c0 {4,S}
+18 H u0 p0 c0 {4,S}
+19 H u0 p0 c0 {3,S}
+20 H u0 p0 c0 {3,S}
+21 H u0 p0 c0 {8,S}
+22 H u0 p0 c0 {8,S}
+23 H u0 p0 c0 {7,S}
+24 H u0 p0 c0 {7,S}
+25 H u0 p0 c0 {9,S}
+26 H u0 p0 c0 {10,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([168.549,228.151,281.335,327.259,400.358,453.284,528.773],'J/(mol*K)'),
+        H298 = (-5.71529,'kJ/mol'),
+        S298 = (380.869,'J/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 66,
     label = "s1_5_6_ene_7",
     molecule = 
 """
@@ -2370,7 +2506,7 @@ u"""
 )
 
 entry(
-    index = 64,
+    index = 67,
     label = "s1_5_6_ene_8",
     molecule = 
 """
@@ -2415,7 +2551,50 @@ u"""
 )
 
 entry(
-    index = 65,
+    index = 68,
+    label = "s1_5_6_diene_1_3",
+    molecule = 
+"""
+1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
+2  C u0 p0 c0 {1,S} {5,S} {15,S} {16,S}
+3  C u0 p0 c0 {1,S} {4,S} {17,S} {18,S}
+4  C u0 p0 c0 {3,S} {5,S} {11,S} {12,S}
+5  C u0 p0 c0 {2,S} {4,S} {13,S} {14,S}
+6  C u0 p0 c0 {1,S} {8,S} {19,S} {20,S}
+7  C u0 p0 c0 {1,S} {10,D} {22,S}
+8  C u0 p0 c0 {6,S} {9,D} {21,S}
+9  C u0 p0 c0 {8,D} {10,S} {23,S}
+10 C u0 p0 c0 {7,D} {9,S} {24,S}
+11 H u0 p0 c0 {4,S}
+12 H u0 p0 c0 {4,S}
+13 H u0 p0 c0 {5,S}
+14 H u0 p0 c0 {5,S}
+15 H u0 p0 c0 {2,S}
+16 H u0 p0 c0 {2,S}
+17 H u0 p0 c0 {3,S}
+18 H u0 p0 c0 {3,S}
+19 H u0 p0 c0 {6,S}
+20 H u0 p0 c0 {6,S}
+21 H u0 p0 c0 {8,S}
+22 H u0 p0 c0 {7,S}
+23 H u0 p0 c0 {9,S}
+24 H u0 p0 c0 {10,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([162.501,217.956,266.813,308.8,375.202,422.821,489.77],'J/(mol*K)'),
+        H298 = (106.022,'kJ/mol'),
+        S298 = (377.93,'J/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 69,
     label = "s1_5_6_diene_1_4",
     molecule = 
 """
@@ -2458,7 +2637,7 @@ u"""
 )
 
 entry(
-    index = 66,
+    index = 70,
     label = "s1_5_6_diene_1_7",
     molecule = 
 """
@@ -2501,7 +2680,7 @@ u"""
 )
 
 entry(
-    index = 67,
+    index = 71,
     label = "s1_5_6_diene_1_8",
     molecule = 
 """
@@ -2544,7 +2723,7 @@ u"""
 )
 
 entry(
-    index = 68,
+    index = 72,
     label = "s1_5_6_diene_2_7",
     molecule = 
 """
@@ -2587,7 +2766,7 @@ u"""
 )
 
 entry(
-    index = 69,
+    index = 73,
     label = "s1_5_6_diene_2_8",
     molecule = 
 """
@@ -2630,7 +2809,7 @@ u"""
 )
 
 entry(
-    index = 70,
+    index = 74,
     label = "s1_5_6_diene_7_9",
     molecule = 
 """
@@ -2673,7 +2852,57 @@ u"""
 )
 
 entry(
-    index = 71,
+    index = 75,
+    label = "s1_6_6_ane",
+    molecule = 
+"""
+1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2  C u0 p0 c0 {1,S} {7,S} {16,S} {17,S}
+3  C u0 p0 c0 {1,S} {8,S} {18,S} {19,S}
+4  C u0 p0 c0 {1,S} {10,S} {26,S} {27,S}
+5  C u0 p0 c0 {1,S} {11,S} {28,S} {29,S}
+6  C u0 p0 c0 {7,S} {11,S} {12,S} {13,S}
+7  C u0 p0 c0 {2,S} {6,S} {14,S} {15,S}
+8  C u0 p0 c0 {3,S} {9,S} {20,S} {21,S}
+9  C u0 p0 c0 {8,S} {10,S} {22,S} {23,S}
+10 C u0 p0 c0 {4,S} {9,S} {24,S} {25,S}
+11 C u0 p0 c0 {5,S} {6,S} {30,S} {31,S}
+12 H u0 p0 c0 {6,S}
+13 H u0 p0 c0 {6,S}
+14 H u0 p0 c0 {7,S}
+15 H u0 p0 c0 {7,S}
+16 H u0 p0 c0 {2,S}
+17 H u0 p0 c0 {2,S}
+18 H u0 p0 c0 {3,S}
+19 H u0 p0 c0 {3,S}
+20 H u0 p0 c0 {8,S}
+21 H u0 p0 c0 {8,S}
+22 H u0 p0 c0 {9,S}
+23 H u0 p0 c0 {9,S}
+24 H u0 p0 c0 {10,S}
+25 H u0 p0 c0 {10,S}
+26 H u0 p0 c0 {4,S}
+27 H u0 p0 c0 {4,S}
+28 H u0 p0 c0 {5,S}
+29 H u0 p0 c0 {5,S}
+30 H u0 p0 c0 {11,S}
+31 H u0 p0 c0 {11,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([192.687,264.33,328.145,383.453,472.076,536.841,630.243],'J/(mol*K)'),
+        H298 = (-157.365,'kJ/mol'),
+        S298 = (396.258,'J/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 76,
     label = "s1_6_6_ene_1",
     molecule = 
 """
@@ -2721,7 +2950,7 @@ u"""
 )
 
 entry(
-    index = 72,
+    index = 77,
     label = "s1_6_6_ene_2",
     molecule = 
 """
@@ -2769,7 +2998,7 @@ u"""
 )
 
 entry(
-    index = 73,
+    index = 78,
     label = "s1_6_6_diene_1_3",
     molecule = 
 """
@@ -2815,7 +3044,7 @@ u"""
 )
 
 entry(
-    index = 74,
+    index = 79,
     label = "s1_6_6_diene_1_4",
     molecule = 
 """
@@ -2861,7 +3090,7 @@ u"""
 )
 
 entry(
-    index = 75,
+    index = 80,
     label = "s1_6_6_diene_1_7",
     molecule = 
 """
@@ -2907,7 +3136,53 @@ u"""
 )
 
 entry(
-    index = 76,
+    index = 81,
+    label = "s1_6_6_diene_1_8",
+    molecule = 
+"""
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {8,S}
+2  C u0 p0 c0 {1,S} {4,S} {12,S} {13,S}
+3  C u0 p0 c0 {1,S} {7,S} {16,S} {17,S}
+4  C u0 p0 c0 {2,S} {6,S} {14,S} {15,S}
+5  C u0 p0 c0 {1,S} {10,S} {18,S} {19,S}
+6  C u0 p0 c0 {4,S} {11,S} {20,S} {21,S}
+7  C u0 p0 c0 {3,S} {9,S} {22,S} {23,S}
+8  C u0 p0 c0 {1,S} {11,D} {27,S}
+9  C u0 p0 c0 {7,S} {10,D} {24,S}
+10 C u0 p0 c0 {5,S} {9,D} {25,S}
+11 C u0 p0 c0 {6,S} {8,D} {26,S}
+12 H u0 p0 c0 {2,S}
+13 H u0 p0 c0 {2,S}
+14 H u0 p0 c0 {4,S}
+15 H u0 p0 c0 {4,S}
+16 H u0 p0 c0 {3,S}
+17 H u0 p0 c0 {3,S}
+18 H u0 p0 c0 {5,S}
+19 H u0 p0 c0 {5,S}
+20 H u0 p0 c0 {6,S}
+21 H u0 p0 c0 {6,S}
+22 H u0 p0 c0 {7,S}
+23 H u0 p0 c0 {7,S}
+24 H u0 p0 c0 {9,S}
+25 H u0 p0 c0 {10,S}
+26 H u0 p0 c0 {11,S}
+27 H u0 p0 c0 {8,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([180.808,243.473,298.562,345.979,421.18,475.336,551.962],'J/(mol*K)'),
+        H298 = (71.3301,'kJ/mol'),
+        S298 = (393.392,'J/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 82,
     label = "s1_6_6_diene_2_8",
     molecule = 
 """
@@ -2953,7 +3228,7 @@ u"""
 )
 
 entry(
-    index = 77,
+    index = 83,
     label = "s2_5_5_ane",
     molecule = 
 """
@@ -2994,7 +3269,7 @@ u"""
 )
 
 entry(
-    index = 78,
+    index = 84,
     label = "s2_5_5_ene_0",
     molecule = 
 """
@@ -3033,7 +3308,7 @@ u"""
 )
 
 entry(
-    index = 79,
+    index = 85,
     label = "s2_5_5_ene_1",
     molecule = 
 """
@@ -3072,7 +3347,7 @@ u"""
 )
 
 entry(
-    index = 80,
+    index = 86,
     label = "s2_5_5_ene_m",
     molecule = 
 """
@@ -3111,7 +3386,7 @@ u"""
 )
 
 entry(
-    index = 81,
+    index = 87,
     label = "s2_5_5_diene_0_2",
     molecule = 
 """
@@ -3148,7 +3423,7 @@ u"""
 )
 
 entry(
-    index = 82,
+    index = 88,
     label = "s2_5_5_diene_0_3",
     molecule = 
 """
@@ -3185,7 +3460,7 @@ u"""
 )
 
 entry(
-    index = 83,
+    index = 89,
     label = "s2_5_5_diene_m_2",
     molecule = 
 """
@@ -3222,7 +3497,7 @@ u"""
 )
 
 entry(
-    index = 84,
+    index = 90,
     label = "s2_5_5_diene_0_4",
     molecule = 
 """
@@ -3259,7 +3534,7 @@ u"""
 )
 
 entry(
-    index = 85,
+    index = 91,
     label = "s2_5_5_diene_0_5",
     molecule = 
 """
@@ -3296,7 +3571,7 @@ u"""
 )
 
 entry(
-    index = 86,
+    index = 92,
     label = "s2_5_5_diene_0_6",
     molecule = 
 """
@@ -3333,7 +3608,7 @@ u"""
 )
 
 entry(
-    index = 87,
+    index = 93,
     label = "s2_5_5_diene_1_5",
     molecule = 
 """
@@ -3370,7 +3645,7 @@ u"""
 )
 
 entry(
-    index = 88,
+    index = 94,
     label = "s2_5_5_diene_1_6",
     molecule = 
 """
@@ -3407,7 +3682,7 @@ u"""
 )
 
 entry(
-    index = 89,
+    index = 95,
     label = "s2_5_6_ane",
     molecule = 
 """
@@ -3451,7 +3726,7 @@ u"""
 )
 
 entry(
-    index = 90,
+    index = 96,
     label = "s2_5_6_ene_0",
     molecule = 
 """
@@ -3493,7 +3768,7 @@ u"""
 )
 
 entry(
-    index = 91,
+    index = 97,
     label = "s2_5_6_ene_1",
     molecule = 
 """
@@ -3535,7 +3810,49 @@ u"""
 )
 
 entry(
-    index = 92,
+    index = 98,
+    label = "s2_5_6_ene_m",
+    molecule = 
+"""
+1  C u0 p0 c0 {2,S} {4,S} {10,S} {11,S}
+2  C u0 p0 c0 {1,S} {5,S} {12,S} {13,S}
+3  C u0 p0 c0 {6,S} {7,S} {14,S} {15,S}
+4  C u0 p0 c0 {1,S} {8,S} {16,S} {17,S}
+5  C u0 p0 c0 {2,S} {9,S} {18,S} {19,S}
+6  C u0 p0 c0 {3,S} {9,S} {20,S} {21,S}
+7  C u0 p0 c0 {3,S} {8,S} {22,S} {23,S}
+8  C u0 p0 c0 {4,S} {7,S} {9,D}
+9  C u0 p0 c0 {5,S} {6,S} {8,D}
+10 H u0 p0 c0 {1,S}
+11 H u0 p0 c0 {1,S}
+12 H u0 p0 c0 {2,S}
+13 H u0 p0 c0 {2,S}
+14 H u0 p0 c0 {3,S}
+15 H u0 p0 c0 {3,S}
+16 H u0 p0 c0 {4,S}
+17 H u0 p0 c0 {4,S}
+18 H u0 p0 c0 {5,S}
+19 H u0 p0 c0 {5,S}
+20 H u0 p0 c0 {6,S}
+21 H u0 p0 c0 {6,S}
+22 H u0 p0 c0 {7,S}
+23 H u0 p0 c0 {7,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([148.856,200.756,247.184,287.446,351.96,399.08,466.772],'J/(mol*K)'),
+        H298 = (-4.41025,'kJ/mol'),
+        S298 = (364.678,'J/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 99,
     label = "s2_5_6_ene_2",
     molecule = 
 """
@@ -3577,7 +3894,7 @@ u"""
 )
 
 entry(
-    index = 93,
+    index = 100,
     label = "s2_5_6_ene_5",
     molecule = 
 """
@@ -3619,7 +3936,7 @@ u"""
 )
 
 entry(
-    index = 94,
+    index = 101,
     label = "s2_5_6_ene_6",
     molecule = 
 """
@@ -3661,7 +3978,7 @@ u"""
 )
 
 entry(
-    index = 95,
+    index = 102,
     label = "s2_5_6_diene_m_1",
     molecule = 
 """
@@ -3701,7 +4018,7 @@ u"""
 )
 
 entry(
-    index = 96,
+    index = 103,
     label = "s2_5_6_diene_m_2",
     molecule = 
 """
@@ -3741,7 +4058,47 @@ u"""
 )
 
 entry(
-    index = 97,
+    index = 104,
+    label = "s2_5_6_diene_m_7",
+    molecule = 
+"""
+1  C u0 p0 c0 {2,S} {3,S} {10,S} {11,S}
+2  C u0 p0 c0 {1,S} {4,S} {12,S} {13,S}
+3  C u0 p0 c0 {1,S} {6,S} {14,S} {15,S}
+4  C u0 p0 c0 {2,S} {7,S} {16,S} {17,S}
+5  C u0 p0 c0 {6,S} {8,S} {18,S} {19,S}
+6  C u0 p0 c0 {3,S} {5,S} {7,D}
+7  C u0 p0 c0 {4,S} {6,D} {9,S}
+8  C u0 p0 c0 {5,S} {9,D} {20,S}
+9  C u0 p0 c0 {7,S} {8,D} {21,S}
+10 H u0 p0 c0 {1,S}
+11 H u0 p0 c0 {1,S}
+12 H u0 p0 c0 {2,S}
+13 H u0 p0 c0 {2,S}
+14 H u0 p0 c0 {3,S}
+15 H u0 p0 c0 {3,S}
+16 H u0 p0 c0 {4,S}
+17 H u0 p0 c0 {4,S}
+18 H u0 p0 c0 {5,S}
+19 H u0 p0 c0 {5,S}
+20 H u0 p0 c0 {8,S}
+21 H u0 p0 c0 {9,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([141.533,190.732,233.78,270.033,327.581,369.192,428.061],'J/(mol*K)'),
+        H298 = (97.2366,'kJ/mol'),
+        S298 = (354.289,'J/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 105,
     label = "s2_5_6_diene_0_2",
     molecule = 
 """
@@ -3781,7 +4138,7 @@ u"""
 )
 
 entry(
-    index = 98,
+    index = 106,
     label = "s2_5_6_diene_0_3",
     molecule = 
 """
@@ -3821,7 +4178,7 @@ u"""
 )
 
 entry(
-    index = 99,
+    index = 107,
     label = "s2_5_6_diene_0_4",
     molecule = 
 """
@@ -3861,7 +4218,7 @@ u"""
 )
 
 entry(
-    index = 100,
+    index = 108,
     label = "s2_5_6_diene_0_5",
     molecule = 
 """
@@ -3901,7 +4258,7 @@ u"""
 )
 
 entry(
-    index = 101,
+    index = 109,
     label = "s2_5_6_diene_0_6",
     molecule = 
 """
@@ -3941,7 +4298,7 @@ u"""
 )
 
 entry(
-    index = 102,
+    index = 110,
     label = "s2_5_6_diene_0_7",
     molecule = 
 """
@@ -3981,7 +4338,7 @@ u"""
 )
 
 entry(
-    index = 103,
+    index = 111,
     label = "s2_5_6_diene_1_3",
     molecule = 
 """
@@ -4021,7 +4378,7 @@ u"""
 )
 
 entry(
-    index = 104,
+    index = 112,
     label = "s2_5_6_diene_1_5",
     molecule = 
 """
@@ -4061,7 +4418,7 @@ u"""
 )
 
 entry(
-    index = 105,
+    index = 113,
     label = "s2_5_6_diene_1_6",
     molecule = 
 """
@@ -4101,7 +4458,7 @@ u"""
 )
 
 entry(
-    index = 106,
+    index = 114,
     label = "s2_5_6_diene_1_7",
     molecule = 
 """
@@ -4141,7 +4498,7 @@ u"""
 )
 
 entry(
-    index = 107,
+    index = 115,
     label = "s2_5_6_diene_2_5",
     molecule = 
 """
@@ -4181,7 +4538,7 @@ u"""
 )
 
 entry(
-    index = 108,
+    index = 116,
     label = "s2_5_6_diene_2_6",
     molecule = 
 """
@@ -4221,7 +4578,7 @@ u"""
 )
 
 entry(
-    index = 109,
+    index = 117,
     label = "s2_5_6_diene_5_7",
     molecule = 
 """
@@ -4261,7 +4618,7 @@ u"""
 )
 
 entry(
-    index = 110,
+    index = 118,
     label = "s2_5_6_diene_5_8",
     molecule = 
 """
@@ -4301,7 +4658,7 @@ u"""
 )
 
 entry(
-    index = 111,
+    index = 119,
     label = "s2_6_6_ane",
     molecule = 
 """
@@ -4348,7 +4705,7 @@ u"""
 )
 
 entry(
-    index = 112,
+    index = 120,
     label = "s2_6_6_ene_0",
     molecule = 
 """
@@ -4393,7 +4750,7 @@ u"""
 )
 
 entry(
-    index = 113,
+    index = 121,
     label = "s2_6_6_ene_1",
     molecule = 
 """
@@ -4438,7 +4795,7 @@ u"""
 )
 
 entry(
-    index = 114,
+    index = 122,
     label = "s2_6_6_ene_2",
     molecule = 
 """
@@ -4483,7 +4840,7 @@ u"""
 )
 
 entry(
-    index = 115,
+    index = 123,
     label = "s2_6_6_ene_m",
     molecule = 
 """
@@ -4528,7 +4885,7 @@ u"""
 )
 
 entry(
-    index = 116,
+    index = 124,
     label = "s2_6_6_diene_m_1",
     molecule = 
 """
@@ -4571,7 +4928,7 @@ u"""
 )
 
 entry(
-    index = 117,
+    index = 125,
     label = "s2_6_6_diene_m_2",
     molecule = 
 """
@@ -4614,7 +4971,7 @@ u"""
 )
 
 entry(
-    index = 118,
+    index = 126,
     label = "s2_6_6_diene_0_2",
     molecule = 
 """
@@ -4657,7 +5014,7 @@ u"""
 )
 
 entry(
-    index = 119,
+    index = 127,
     label = "s2_6_6_diene_0_3",
     molecule = 
 """
@@ -4700,7 +5057,7 @@ u"""
 )
 
 entry(
-    index = 120,
+    index = 128,
     label = "s2_6_6_diene_0_4",
     molecule = 
 """
@@ -4743,7 +5100,7 @@ u"""
 )
 
 entry(
-    index = 121,
+    index = 129,
     label = "s2_6_6_diene_0_5",
     molecule = 
 """
@@ -4786,7 +5143,7 @@ u"""
 )
 
 entry(
-    index = 122,
+    index = 130,
     label = "s2_6_6_diene_0_6",
     molecule = 
 """
@@ -4829,7 +5186,7 @@ u"""
 )
 
 entry(
-    index = 123,
+    index = 131,
     label = "s2_6_6_diene_0_7",
     molecule = 
 """
@@ -4872,7 +5229,7 @@ u"""
 )
 
 entry(
-    index = 124,
+    index = 132,
     label = "s2_6_6_diene_0_8",
     molecule = 
 """
@@ -4915,7 +5272,7 @@ u"""
 )
 
 entry(
-    index = 125,
+    index = 133,
     label = "s2_6_6_diene_1_3",
     molecule = 
 """
@@ -4958,7 +5315,7 @@ u"""
 )
 
 entry(
-    index = 126,
+    index = 134,
     label = "s2_6_6_diene_1_6",
     molecule = 
 """
@@ -5001,7 +5358,7 @@ u"""
 )
 
 entry(
-    index = 127,
+    index = 135,
     label = "s2_6_6_diene_1_7",
     molecule = 
 """
@@ -5044,7 +5401,7 @@ u"""
 )
 
 entry(
-    index = 128,
+    index = 136,
     label = "s2_6_6_diene_1_8",
     molecule = 
 """
@@ -5087,7 +5444,7 @@ u"""
 )
 
 entry(
-    index = 129,
+    index = 137,
     label = "s2_6_6_diene_2_7",
     molecule = 
 """
@@ -5118,9 +5475,9 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([165.305,219.914,267.707,308.95,374.637,422.225,490.073],'J/(mol*K)'),
-        H298 = (104.797,'kJ/mol'),
-        S298 = (385.827,'J/(mol*K)'),
+        Cpdata = ([158.134,214.912,264.686,306.697,373.432,421.712,490.081],'J/(mol*K)'),
+        H298 = (86.48,'kJ/mol'),
+        S298 = (368.122,'J/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -5130,7 +5487,7 @@ u"""
 )
 
 entry(
-    index = 130,
+    index = 138,
     label = "s3_4_4_ane",
     molecule = 
 """
@@ -5162,7 +5519,7 @@ u"""
 )
 
 entry(
-    index = 131,
+    index = 139,
     label = "s3_4_4_ene_0",
     molecule = 
 """
@@ -5192,7 +5549,7 @@ u"""
 )
 
 entry(
-    index = 132,
+    index = 140,
     label = "s3_4_4_diene_0_2",
     molecule = 
 """
@@ -5220,7 +5577,7 @@ u"""
 )
 
 entry(
-    index = 133,
+    index = 141,
     label = "s3_4_5_ane",
     molecule = 
 """
@@ -5255,7 +5612,7 @@ u"""
 )
 
 entry(
-    index = 134,
+    index = 142,
     label = "s3_4_5_ene_0",
     molecule = 
 """
@@ -5288,7 +5645,7 @@ u"""
 )
 
 entry(
-    index = 135,
+    index = 143,
     label = "s3_4_5_ene_1",
     molecule = 
 """
@@ -5321,7 +5678,7 @@ u"""
 )
 
 entry(
-    index = 136,
+    index = 144,
     label = "s3_4_5_ene_3",
     molecule = 
 """
@@ -5354,7 +5711,7 @@ u"""
 )
 
 entry(
-    index = 137,
+    index = 145,
     label = "s3_4_5_diene_0_2",
     molecule = 
 """
@@ -5385,7 +5742,7 @@ u"""
 )
 
 entry(
-    index = 138,
+    index = 146,
     label = "s3_4_5_diene_0_3",
     molecule = 
 """
@@ -5416,7 +5773,7 @@ u"""
 )
 
 entry(
-    index = 139,
+    index = 147,
     label = "s3_4_5_diene_1_3",
     molecule = 
 """
@@ -5447,7 +5804,7 @@ u"""
 )
 
 entry(
-    index = 140,
+    index = 148,
     label = "s3_4_5_diene_3_4",
     molecule = 
 """
@@ -5478,7 +5835,7 @@ u"""
 )
 
 entry(
-    index = 141,
+    index = 149,
     label = "s3_4_6_ane",
     molecule = 
 """
@@ -5516,7 +5873,7 @@ u"""
 )
 
 entry(
-    index = 142,
+    index = 150,
     label = "s3_4_6_ene_0",
     molecule = 
 """
@@ -5552,7 +5909,7 @@ u"""
 )
 
 entry(
-    index = 143,
+    index = 151,
     label = "s3_4_6_ene_1",
     molecule = 
 """
@@ -5588,7 +5945,7 @@ u"""
 )
 
 entry(
-    index = 144,
+    index = 152,
     label = "s3_4_6_ene_4",
     molecule = 
 """
@@ -5624,7 +5981,7 @@ u"""
 )
 
 entry(
-    index = 145,
+    index = 153,
     label = "s3_4_6_diene_0_2",
     molecule = 
 """
@@ -5658,7 +6015,7 @@ u"""
 )
 
 entry(
-    index = 146,
+    index = 154,
     label = "s3_4_6_diene_0_3",
     molecule = 
 """
@@ -5692,7 +6049,7 @@ u"""
 )
 
 entry(
-    index = 147,
+    index = 155,
     label = "s3_4_6_diene_0_4",
     molecule = 
 """
@@ -5726,7 +6083,7 @@ u"""
 )
 
 entry(
-    index = 148,
+    index = 156,
     label = "s3_4_6_diene_1_4",
     molecule = 
 """
@@ -5760,7 +6117,7 @@ u"""
 )
 
 entry(
-    index = 149,
+    index = 157,
     label = "s3_4_6_diene_1_5",
     molecule = 
 """
@@ -5794,7 +6151,7 @@ u"""
 )
 
 entry(
-    index = 150,
+    index = 158,
     label = "s3_6_6_ane",
     molecule = 
 """
@@ -5838,7 +6195,7 @@ u"""
 )
 
 entry(
-    index = 151,
+    index = 159,
     label = "s3_6_6_ene_0",
     molecule = 
 """
@@ -5880,7 +6237,7 @@ u"""
 )
 
 entry(
-    index = 152,
+    index = 160,
     label = "s3_6_6_ene_1",
     molecule = 
 """
@@ -5922,7 +6279,7 @@ u"""
 )
 
 entry(
-    index = 153,
+    index = 161,
     label = "s3_6_6_ene_4",
     molecule = 
 """
@@ -5964,7 +6321,7 @@ u"""
 )
 
 entry(
-    index = 154,
+    index = 162,
     label = "s3_6_6_diene_0_m",
     molecule = 
 """
@@ -6004,7 +6361,7 @@ u"""
 )
 
 entry(
-    index = 155,
+    index = 163,
     label = "s3_6_6_diene_0_2",
     molecule = 
 """
@@ -6044,7 +6401,7 @@ u"""
 )
 
 entry(
-    index = 156,
+    index = 164,
     label = "s3_6_6_diene_0_3",
     molecule = 
 """
@@ -6084,7 +6441,7 @@ u"""
 )
 
 entry(
-    index = 157,
+    index = 165,
     label = "s3_6_6_diene_0_4",
     molecule = 
 """
@@ -6124,7 +6481,7 @@ u"""
 )
 
 entry(
-    index = 158,
+    index = 166,
     label = "s3_6_6_diene_0_5",
     molecule = 
 """
@@ -6164,7 +6521,7 @@ u"""
 )
 
 entry(
-    index = 159,
+    index = 167,
     label = "s3_6_6_diene_0_6",
     molecule = 
 """
@@ -6204,7 +6561,7 @@ u"""
 )
 
 entry(
-    index = 160,
+    index = 168,
     label = "s3_6_6_diene_1_m",
     molecule = 
 """
@@ -6244,7 +6601,7 @@ u"""
 )
 
 entry(
-    index = 161,
+    index = 169,
     label = "s3_6_6_diene_1_5",
     molecule = 
 """
@@ -6284,7 +6641,7 @@ u"""
 )
 
 entry(
-    index = 162,
+    index = 170,
     label = "s3_6_6_diene_1_6",
     molecule = 
 """
@@ -6324,7 +6681,7 @@ u"""
 )
 
 entry(
-    index = 163,
+    index = 171,
     label = "s3_6_6_diene_1_8",
     molecule = 
 """
@@ -6355,6 +6712,231 @@ entry(
         Cpdata = ([138.34,189.873,234.509,271.047,328.349,369.713,428.127],'J/(mol*K)'),
         H298 = (323.956,'kJ/mol'),
         S298 = (342.812,'J/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 172,
+    label = "s2_4_6_diene_1_3",
+    molecule = 
+"""
+1  C u0 p0 c0 {2,S} {4,S} {5,S} {9,S}
+2  C u0 p0 c0 {1,S} {3,S} {6,S} {10,S}
+3  C u0 p0 c0 {2,S} {4,S} {11,S} {12,S}
+4  C u0 p0 c0 {1,S} {3,S} {13,S} {14,S}
+5  C u0 p0 c0 {1,S} {7,D} {15,S}
+6  C u0 p0 c0 {2,S} {8,D} {16,S}
+7  C u0 p0 c0 {5,D} {8,S} {17,S}
+8  C u0 p0 c0 {6,D} {7,S} {18,S}
+9  H u0 p0 c0 {1,S}
+10 H u0 p0 c0 {2,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {3,S}
+13 H u0 p0 c0 {4,S}
+14 H u0 p0 c0 {4,S}
+15 H u0 p0 c0 {5,S}
+16 H u0 p0 c0 {6,S}
+17 H u0 p0 c0 {7,S}
+18 H u0 p0 c0 {8,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([120.981,164.292,202.285,233.451,281.871,316.741,365.743],'J/(mol*K)'),
+        H298 = (217.17,'kJ/mol'),
+        S298 = (331.989,'J/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 173,
+    label = "s2_4_6_diene_1_6",
+    molecule = 
+"""
+1  C u0 p0 c0 {2,S} {3,S} {5,S} {9,S}
+2  C u0 p0 c0 {1,S} {6,S} {7,S} {10,S}
+3  C u0 p0 c0 {1,S} {4,S} {11,S} {12,S}
+4  C u0 p0 c0 {3,S} {8,S} {13,S} {14,S}
+5  C u0 p0 c0 {1,S} {7,D} {18,S}
+6  C u0 p0 c0 {2,S} {8,D} {16,S}
+7  C u0 p0 c0 {2,S} {5,D} {17,S}
+8  C u0 p0 c0 {4,S} {6,D} {15,S}
+9  H u0 p0 c0 {1,S}
+10 H u0 p0 c0 {2,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {3,S}
+13 H u0 p0 c0 {4,S}
+14 H u0 p0 c0 {4,S}
+15 H u0 p0 c0 {8,S}
+16 H u0 p0 c0 {6,S}
+17 H u0 p0 c0 {7,S}
+18 H u0 p0 c0 {5,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([121.554,164.636,202.415,233.492,281.949,316.86,365.942],'J/(mol*K)'),
+        H298 = (245.26,'kJ/mol'),
+        S298 = (332.235,'J/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 174,
+    label = "s2_4_6_diene_2_6",
+    molecule = 
+"""
+1  C u0 p0 c0 {2,S} {3,S} {6,S} {9,S}
+2  C u0 p0 c0 {1,S} {4,S} {5,S} {10,S}
+3  C u0 p0 c0 {1,S} {7,S} {11,S} {12,S}
+4  C u0 p0 c0 {2,S} {8,S} {13,S} {14,S}
+5  C u0 p0 c0 {2,S} {6,D} {17,S}
+6  C u0 p0 c0 {1,S} {5,D} {18,S}
+7  C u0 p0 c0 {3,S} {8,D} {15,S}
+8  C u0 p0 c0 {4,S} {7,D} {16,S}
+9  H u0 p0 c0 {1,S}
+10 H u0 p0 c0 {2,S}
+11 H u0 p0 c0 {3,S}
+12 H u0 p0 c0 {3,S}
+13 H u0 p0 c0 {4,S}
+14 H u0 p0 c0 {4,S}
+15 H u0 p0 c0 {7,S}
+16 H u0 p0 c0 {8,S}
+17 H u0 p0 c0 {5,S}
+18 H u0 p0 c0 {6,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([120.625,164.317,202.326,233.37,281.812,316.741,365.936],'J/(mol*K)'),
+        H298 = (305.868,'kJ/mol'),
+        S298 = (328.362,'J/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 175,
+    label = "s2_4_6_ben",
+    molecule = 
+"""
+1  C u0 p0 c0 {2,S} {4,S} {9,S} {10,S}
+2  C u0 p0 c0 {1,S} {3,S} {11,S} {12,S}
+3  C u0 p0 c0 {2,S} {4,S} {5,D}
+4  C u0 p0 c0 {1,S} {3,S} {6,D}
+5  C u0 p0 c0 {3,D} {7,S} {13,S}
+6  C u0 p0 c0 {4,D} {8,S} {16,S}
+7  C u0 p0 c0 {5,S} {8,D} {14,S}
+8  C u0 p0 c0 {6,S} {7,D} {15,S}
+9  H u0 p0 c0 {1,S}
+10 H u0 p0 c0 {1,S}
+11 H u0 p0 c0 {2,S}
+12 H u0 p0 c0 {2,S}
+13 H u0 p0 c0 {5,S}
+14 H u0 p0 c0 {7,S}
+15 H u0 p0 c0 {8,S}
+16 H u0 p0 c0 {6,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([112.272,151.281,185.028,212.329,254.487,284.635,326.431],'J/(mol*K)'),
+        H298 = (209.641,'kJ/mol'),
+        S298 = (324.74,'J/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 176,
+    label = "s2_5_6_ben",
+    molecule = 
+"""
+1  C u0 p0 c0 {2,S} {3,S} {10,S} {11,S}
+2  C u0 p0 c0 {1,S} {5,S} {12,S} {13,S}
+3  C u0 p0 c0 {1,S} {4,S} {14,S} {15,S}
+4  C u0 p0 c0 {3,S} {5,S} {6,D}
+5  C u0 p0 c0 {2,S} {4,S} {7,D}
+6  C u0 p0 c0 {4,D} {8,S} {16,S}
+7  C u0 p0 c0 {5,D} {9,S} {19,S}
+8  C u0 p0 c0 {6,S} {9,D} {17,S}
+9  C u0 p0 c0 {7,S} {8,D} {18,S}
+10 H u0 p0 c0 {1,S}
+11 H u0 p0 c0 {1,S}
+12 H u0 p0 c0 {2,S}
+13 H u0 p0 c0 {2,S}
+14 H u0 p0 c0 {3,S}
+15 H u0 p0 c0 {3,S}
+16 H u0 p0 c0 {6,S}
+17 H u0 p0 c0 {8,S}
+18 H u0 p0 c0 {9,S}
+19 H u0 p0 c0 {7,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([129.512,175.406,215.477,248.432,299.871,336.805,388.361],'J/(mol*K)'),
+        H298 = (77.0595,'kJ/mol'),
+        S298 = (342.894,'J/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 177,
+    label = "s2_6_6_ben",
+    molecule = 
+"""
+1  C u0 p0 c0 {2,S} {3,S} {11,S} {12,S}
+2  C u0 p0 c0 {1,S} {4,S} {13,S} {14,S}
+3  C u0 p0 c0 {1,S} {6,S} {15,S} {16,S}
+4  C u0 p0 c0 {2,S} {5,S} {17,S} {18,S}
+5  C u0 p0 c0 {4,S} {6,S} {7,D}
+6  C u0 p0 c0 {3,S} {5,S} {8,D}
+7  C u0 p0 c0 {5,D} {9,S} {19,S}
+8  C u0 p0 c0 {6,D} {10,S} {22,S}
+9  C u0 p0 c0 {7,S} {10,D} {20,S}
+10 C u0 p0 c0 {8,S} {9,D} {21,S}
+11 H u0 p0 c0 {1,S}
+12 H u0 p0 c0 {1,S}
+13 H u0 p0 c0 {2,S}
+14 H u0 p0 c0 {2,S}
+15 H u0 p0 c0 {3,S}
+16 H u0 p0 c0 {3,S}
+17 H u0 p0 c0 {4,S}
+18 H u0 p0 c0 {4,S}
+19 H u0 p0 c0 {7,S}
+20 H u0 p0 c0 {9,S}
+21 H u0 p0 c0 {10,S}
+22 H u0 p0 c0 {8,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([148.793,201.126,246.81,285.107,345.686,389.299,450.473],'J/(mol*K)'),
+        H298 = (44.0023,'kJ/mol'),
+        S298 = (364.582,'J/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
