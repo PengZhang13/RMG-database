@@ -565,10 +565,10 @@ entry(
     label = "Cyclobutane",
     group = 
 """
-1 * Cs u0 {2,S} {4,S}
-2   Cs u0 {1,S} {3,S}
-3   Cs u0 {2,S} {4,S}
-4   Cs u0 {1,S} {3,S}
+1 * C u0 {2,S} {4,S}
+2   C u0 {1,S} {3,S}
+3   C u0 {2,S} {4,S}
+4   C u0 {1,S} {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -749,10 +749,10 @@ entry(
     label = "cyclobutadiene",
     group = 
 """
-1   Cd u0 {2,D} {4,S}
-2 * Cd u0 {1,D} {3,S}
-3   Cd u0 {2,S} {4,D}
-4   Cd u0 {1,S} {3,D}
+1   C u0 {2,D} {4,S}
+2 * C u0 {1,D} {3,S}
+3   C u0 {2,S} {4,D}
+4   C u0 {1,S} {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
