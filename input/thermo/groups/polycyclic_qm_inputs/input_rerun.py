@@ -7,6 +7,21 @@ species(
     structure=SMILES("C12CC=CCC1CC=CC2"),
 )
 
+species(
+    label='s2_4_6_diene_1_3',
+    structure=SMILES(""),
+)
+
+species(
+    label='s2_4_6_diene_1_6',
+    structure=SMILES(""),
+)
+
+species(
+    label='s2_4_6_diene_2_6',
+    structure=SMILES(""),
+)
+
 quantumMechanics(
     software='mopac',
     method='pm7',

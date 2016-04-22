@@ -794,6 +794,37 @@ species(
     structure=SMILES("C1(CCC2)C=C2C=CC1"),
 )
 
+# batch 3
+species(
+    label='s2_4_6_diene_1_3',
+    structure=SMILES("C12C=CC=CC1CC2"),
+)
+
+species(
+    label='s2_4_6_diene_1_6',
+    structure=SMILES("C12CCC=CC1C=C2"),
+)
+
+species(
+    label='s2_4_6_diene_2_6',
+    structure=SMILES("C12CC=CCC1C=C2"),
+)
+
+species(
+    label='s2_4_6_ben',
+    structure=SMILES("C12=CC=CC=C1CC2"),
+)
+
+species(
+    label='s2_5_6_ben',
+    structure=SMILES("C12=CC=CC=C1CCC2"),
+)
+
+species(
+    label='s2_6_6_ben',
+    structure=SMILES("C12=CC=CC=C1CCCC2"),
+)
+
 quantumMechanics(
     software='mopac',
     method='pm7',
