@@ -27,29 +27,6 @@ u"""
     rank = 10,
 )
 
-
-entry(
-    index = 96,
-    label = "Aromatic",
-    group = 
-"""
-1 * Cb u0
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Aromatic""",
-    longDesc = 
-u"""
-Ring correction is zero because RMG uses Cb group corrections instead in the case of a ring containing Cb bonds
-""",
-    rank = 1,
-)
-
-
 entry(
     index = 96,
     label = "Benzene",
@@ -1847,12 +1824,12 @@ entry(
     label = "SixMember",
     group = 
 """
-1 * R!H u0 {2,[S,D]} {6,[S,D]}
-2   R!H u0 {1,[S,D]} {3,[S,D]}
-3   R!H u0 {2,[S,D]} {4,[S,D]}
-4   R!H u0 {3,[S,D]} {5,[S,D]}
-5   R!H u0 {4,[S,D]} {6,[S,D]}
-6   R!H u0 {1,[S,D]} {5,[S,D]}
+1 * R!H u0 {2,[S,D,T,B]} {6,[S,D,T,B]}
+2   R!H u0 {1,[S,D,T,B]} {3,[S,D,T,B]}
+3   R!H u0 {2,[S,D,T,B]} {4,[S,D,T,B]}
+4   R!H u0 {3,[S,D,T,B]} {5,[S,D,T,B]}
+5   R!H u0 {4,[S,D,T,B]} {6,[S,D,T,B]}
+6   R!H u0 {1,[S,D,T,B]} {5,[S,D,T,B]}
 """,
     thermo = u'Cyclohexane',
     shortDesc = u"""""",
@@ -3714,8 +3691,6 @@ u"""
 tree(
 """
 L1: Ring
-    L2: Aromatic
-        L3: Benzene
     L2: ThreeMember
         L3: Cyclopropane
         L3: Cyclopropene
@@ -3842,6 +3817,7 @@ L1: Ring
             L4: pbenzoquinone
             L4: pxylene
         L3: 3,4-dimethylenecyclohexene
+        L3: Benzene
     L2: SevenMember
         L3: Cycloheptane
         L3: Cycloheptene
