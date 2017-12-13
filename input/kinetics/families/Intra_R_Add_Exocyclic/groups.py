@@ -18,8 +18,6 @@ recipe(actions=[
     ['GAIN_RADICAL', '*3', '1'],
 ])
 
-boundaryAtoms = ["*1", "*2"]
-
 entry(
     index = 1,
     label = "Rn",
@@ -83,6 +81,36 @@ entry(
 2 *4 R!H      u0 {1,S} {3,S}
 3 *2 Cd       u0 {2,S} {4,D}
 4 *3 [Cd,Cdd] u0 {3,D}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 6,
+    label = "R4_S_D_bridgedphenoxy",
+    group = 
+"""
+1 *1 C u1 {2,S} {6,S}
+2 *4 CO u0 {1,S} {3,S}
+3 *2 Cd u0 {2,S} {4,D}
+4 *3 Cd u0 {3,D} {5,S}
+5 Cd u0 {4,S} {6,D}
+6 Cd u0 {5,D} {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 6,
+    label = "R4_S_D_cpdylCO",
+    group = 
+"""
+1 *1 CO u1 {2,S}
+2 *4 C u0 {1,S} {3,S} {5,S}
+3 *2 Cd u0 {2,S} {4,D}
+4 *3 Cd u0 {3,D} {6,S}
+5 Cd u0 {2,S} {6,D}
+6 Cd u0 {5,D} {4,S}
 """,
     kinetics = None,
 )
@@ -2743,6 +2771,8 @@ L1: Rn
     L2: R4
         L3: R4_S
             L4: R4_S_D
+                L5: R4_S_D_bridgedphenoxy
+                L5: R4_S_D_cpdylCO
             L4: R4_S_T
             L4: R4_S_CO
         L3: R4_D
@@ -2957,6 +2987,45 @@ forbidden(
     longDesc = 
 u"""
 
+""",
+)
+
+forbidden(
+    label = "R6_para_1",
+    group = 
+"""
+1 C ux {6,[S,D]} {2,[S,D]} (7,S)
+2 C ux {1,[S,D]} {3,[S,D]}
+3 C ux {2,[S,D]} {4,[S,D]}
+4 C ux {3,[S,D]} {5,[S,D]} {8,S}
+5 C ux {4,[S,D]} {6,[S,D]}
+6 C ux {5,[S,D]} {1,[S,D]}
+7 *1 R u1 {1,S}
+8 *2 R ux {4,S} {9,D}
+9 *3 R ux {8,D}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+""",
+)
+
+forbidden(
+    label = "R6_para_2",
+    group = 
+"""
+1 C ux {6,[S,D]} {2,[S,D]} (7,S)
+2 C ux {1,[S,D]} {3,[S,D]}
+3 *3 Cd ux {2,[S,D]} {4,D}
+4 *2 Cd u0 {3,D} {5,[S,D]}
+5 C ux {4,[S,D]} {6,[S,D]}
+6 C ux {5,[S,D]} {1,[S,D]}
+7 R ux {1,S} {8,S}
+8 *1 R u1 {7,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
 """,
 )
 
