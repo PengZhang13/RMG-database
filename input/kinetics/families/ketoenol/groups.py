@@ -18,192 +18,276 @@ recipe(actions=[
     ['FORM_BOND', '*4', 1, '*1'],
 ])
 
-boundaryAtoms = ["*2", "*3"]
-
-entry(
-        index = 19,
-        label = 'R1_doublebond',
-        group = 
-"""
-1 *1 R!H u0
-""",
-    kinetics = None,
-)
-
-entry(
-        index = 20,
-        label = 'R2_doublebond',
-        group = 
-"""
-1 *2 R!H u0
-""",
-    kinetics = None,
-)
-
-entry( 
-        index = 21,
-        label = 'R_O',
-        group = 
-"""
-1 *4 R u0 
-""",
-    kinetics = None,
-        )
-
 entry(
     index = 1,
     label = "R_ROR",
     group = 
 """
-1 *1 R!H u0 {2,D}
-2 *2 R!H u0 {1,D} {3,S}
-3 *3 O   u0 {2,S} {4,S}
-4 *4 R   u0 {3,S}
+1 *1 R u0 {2,D}
+2 *2 R u0 {1,D} {3,S}
+3 *3 O u0 {2,S} {4,S}
+4 *4 R u0 {3,S}
 """,
     kinetics = None,
 )
 
 entry(
-    index = 22,
-    label = "R_O_H",
+    index = 2,
+    label = "C_COH",
     group = 
 """
-1 *4 H u0
+1 *1 C u0 {2,D}
+2 *2 C u0 {1,D} {3,S}
+3 *3 O u0 {2,S} {4,S}
+4 *4 H u0 {3,S}
 """,
     kinetics = None,
 )
 
 entry(
-    index = 23,
-    label = "R_O_R",
+    index = 3,
+    label = "Cds/H2_Cds/ROH",
     group = 
 """
-1 *4 R!H u0
-""",
-    kinetics = None,
-    nodalDistance=10,
-)
-
-entry(
-    index = 34,
-    label = "R_O_C",
-    group = 
-"""
-1 *4 C u0
+1 *1 C u0 {2,D} {5,S} {6,S}
+2 *2 C u0 {1,D} {3,S} {7,S}
+3 *3 O u0 {2,S} {4,S}
+4 *4 H u0 {3,S}
+5    H u0 {1,S}
+6    H u0 {1,S}
+7    R u0 {2,S}
 """,
     kinetics = None,
 )
 
 entry(
-    index = 24,
-    label = "R1_doublebond_CH2",
+    index = 4,
+    label = "Cds/H2_Cds/HOH",
     group = 
 """
-1 *1 C u0 {2,S} {3,S}
-2    H u0 {1,S}
-3    H u0 {1,S}
+1 *1 C u0 {2,D} {5,S} {6,S}
+2 *2 C u0 {1,D} {3,S} {7,S}
+3 *3 O u0 {2,S} {4,S}
+4 *4 H u0 {3,S}
+5    H u0 {1,S}
+6    H u0 {1,S}
+7    H u0 {2,S}
 """,
     kinetics = None,
 )
 
 entry(
-    index = 25,
-    label = "R1_doublebond_CHR",
+    index = 5,
+    label = "Cds/H2_Cds/CsOH",
     group = 
 """
-1 *1 C u0 {2,S} {3,S}
-2    R!H u0 {1,S}
-3    H u0 {1,S}
+1 *1 C  u0 {2,D} {5,S} {6,S}
+2 *2 C  u0 {1,D} {3,S} {7,S}
+3 *3 O  u0 {2,S} {4,S}
+4 *4 H  u0 {3,S}
+5    H  u0 {1,S}
+6    H  u0 {1,S}
+7    Cs u0 {2,S}
 """,
     kinetics = None,
 )
 
 entry(
-    index = 26,
-    label = "R1_doublebond_S",
+    index = 6,
+    label = "Cds/CsH_Cds/ROH",
     group = 
 """
-1 *1 S u0 
+1 *1 C  u0 {2,D} {5,S} {6,S}
+2 *2 C  u0 {1,D} {3,S} {7,S}
+3 *3 O  u0 {2,S} {4,S}
+4 *4 H  u0 {3,S}
+5    Cs u0 {1,S}
+6    H  u0 {1,S}
+7    R  u0 {2,S}
 """,
     kinetics = None,
 )
 
 entry(
-    index = 27,
-    label = "R1_doublebond_CHCH3",
+    index = 7,
+    label = "Cds/CsH_Cds/HOH",
     group = 
 """
-1 *1 C u0 {2,S} {3,S}
-2    C u0 {1,S} {4,S} {5,S} {6,S}
-3    H u0 {1,S}
-4    H u0 {2,S}
+1 *1 C  u0 {2,D} {5,S} {6,S}
+2 *2 C  u0 {1,D} {3,S} {7,S}
+3 *3 O  u0 {2,S} {4,S}
+4 *4 H  u0 {3,S}
+5    Cs u0 {1,S}
+6    H  u0 {1,S}
+7    H  u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 8,
+    label = "Cds/CsH_Cds/CsOH",
+    group = 
+"""
+1 *1 C  u0 {2,D} {5,S} {6,S}
+2 *2 C  u0 {1,D} {3,S} {7,S}
+3 *3 O  u0 {2,S} {4,S}
+4 *4 H  u0 {3,S}
+5    Cs u0 {1,S}
+6    H  u0 {1,S}
+7    Cs u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 9,
+    label = "Cds/CsCs_Cds/ROH",
+    group = 
+"""
+1 *1 C  u0 {2,D} {5,S} {6,S}
+2 *2 C  u0 {1,D} {3,S} {7,S}
+3 *3 O  u0 {2,S} {4,S}
+4 *4 H  u0 {3,S}
+5    Cs u0 {1,S}
+6    Cs u0 {1,S}
+7    R  u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 10,
+    label = "Cds/CsCs_Cds/HOH",
+    group = 
+"""
+1 *1 C  u0 {2,D} {5,S} {6,S}
+2 *2 C  u0 {1,D} {3,S} {7,S}
+3 *3 O  u0 {2,S} {4,S}
+4 *4 H  u0 {3,S}
+5    Cs u0 {1,S}
+6    Cs u0 {1,S}
+7    H  u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 11,
+    label = "Cds/CsCs_Cds/CsOH",
+    group = 
+"""
+1 *1 C  u0 {2,D} {5,S} {6,S}
+2 *2 C  u0 {1,D} {3,S} {7,S}
+3 *3 O  u0 {2,S} {4,S}
+4 *4 H  u0 {3,S}
+5    Cs u0 {1,S}
+6    Cs u0 {1,S}
+7    Cs u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 12,
+    label = "C_COC",
+    group = 
+"""
+1 *1 C u0 {2,D}
+2 *2 C u0 {1,D} {3,S}
+3 *3 O u0 {2,S} {4,S}
+4 *4 C u0 {3,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 13,
+    label = "S_COH",
+    group = 
+"""
+1 *1 S u0 {2,D}
+2 *2 C u0 {1,D} {3,S}
+3 *3 O u0 {2,S} {4,S}
+4 *4 H u0 {3,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 14,
+    label = "S_Cds/HOH",
+    group = 
+"""
+1 *1 S u0 {2,D}
+2 *2 C u0 {1,D} {3,S} {5,S}
+3 *3 O u0 {2,S} {4,S}
+4 *4 H u0 {3,S}
 5    H u0 {2,S}
-6    H u0 {2,S}
 """,
     kinetics = None,
 )
 
 entry(
-    index = 28,
-    label = "R2_doublebond_Cs",
+    index = 15,
+    label = "S_Cds/CsOH",
     group = 
 """
-1 *2 C u0 {2,S}
-2    Cs u0 {1,S}
+1 *1 S  u0 {2,D}
+2 *2 C  u0 {1,D} {3,S} {5,S}
+3 *3 O  u0 {2,S} {4,S}
+4 *4 H  u0 {3,S}
+5    Cs u0 {2,S}
 """,
     kinetics = None,
 )
 
 entry(
-    index = 29,
-    label = "R2_doublebond_H",
+    index = 16,
+    label = "S_Cds/CH3OH",
     group = 
 """
-1 *2 C u0 {2,S}
-2    H u0 {1,S}
+1 *1 S  u0 {2,D}
+2 *2 C  u0 {1,D} {3,S} {5,S}
+3 *3 O  u0 {2,S} {4,S}
+4 *4 H  u0 {3,S}
+5    Cs u0 {2,S} {6,S} {7,S} {8,S}
+6    H  u0 {5,S}
+7    H  u0 {5,S}
+8    H  u0 {5,S}
 """,
     kinetics = None,
 )
 
 entry(
-    index = 31,
-    label = "R2_doublebond_CH3",
+    index = 17,
+    label = "S_Cds/CH2CH3OH",
     group = 
 """
-1 *2 C u0 {2,S} 
-2    Cs u0 {1,S} {3,S} {4,S} {5,S}
-3    H u0 {2,S}
-4    H u0 {2,S}
-5    H u0 {2,S}
+1  *1 S  u0 {2,D}
+2  *2 C  u0 {1,D} {3,S} {5,S}
+3  *3 O  u0 {2,S} {4,S}
+4  *4 H  u0 {3,S}
+5     Cs u0 {2,S} {6,S} {7,S} {8,S}
+6     Cs u0 {5,S} {9,S} {10,S} {11,S}
+7     H  u0 {5,S}
+8     H  u0 {5,S}
+9     H  u0 {6,S}
+10    H  u0 {6,S}
+11    H  u0 {6,S}
 """,
     kinetics = None,
 )
 
 entry(
-    index = 32,
-    label = "R2_doublebond_CsC",
+    index = 18,
+    label = "S_COC",
     group = 
 """
-1 *2 C u0 {2,S}
-2    Cs u0 {1,S} {3,S}
-3    C u0 {2,S}
-""",
-    kinetics = None,
-)
-
-entry(
-    index = 33,
-    label = "R2_doublebond_CH2CH3",
-    group = 
-"""
-1 *2 C u0 {2,S}
-2    Cs u0 {1,S} {3,S} {4,S} {5,S}
-3    Cs u0 {2,S} {6,S} {7,S} {8,S}
-4    H u0 {2,S}
-5    H u0 {2,S}
-6    H u0 {3,S}
-7    H u0 {3,S}
-8    H u0 {3,S}
+1 *1 S u0 {2,D}
+2 *2 C u0 {1,D} {3,S}
+3 *3 O u0 {2,S} {4,S}
+4 *4 C u0 {3,S}
 """,
     kinetics = None,
 )
@@ -211,21 +295,62 @@ entry(
 tree(
 """
 L1: R_ROR
-L1: R1_doublebond
-    L2: R1_doublebond_CHR
-        L3: R1_doublebond_CHCH3
-    L2: R1_doublebond_S
-    L2: R1_doublebond_CH2
-L1: R2_doublebond
-    L2: R2_doublebond_Cs
-        L3: R2_doublebond_CH3
-        L3: R2_doublebond_CsC
-            L4: R2_doublebond_CH2CH3
-    L2: R2_doublebond_H
-L1: R_O
-    L2: R_O_H
-    L2: R_O_R
-        L3: R_O_C
+    L2: C_COH
+        L3: Cds/H2_Cds/ROH
+            L4: Cds/H2_Cds/HOH
+            L4: Cds/H2_Cds/CsOH
+        L3: Cds/CsH_Cds/ROH
+            L4: Cds/CsH_Cds/HOH
+            L4: Cds/CsH_Cds/CsOH
+        L3: Cds/CsCs_Cds/ROH
+            L4: Cds/CsCs_Cds/HOH
+            L4: Cds/CsCs_Cds/CsOH
+    L2: C_COC
+    L2: S_COH
+        L3: S_Cds/HOH
+        L3: S_Cds/CsOH
+            L4: S_Cds/CH3OH
+            L4: S_Cds/CH2CH3OH
+    L2: S_COC
 """
 )
 
+forbidden(
+    label = "cresol",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {8,S}
+2 *2 Cd u0 {1,D} {3,S} {5,S}
+3 *3 O u0 {2,S} {4,S}
+4 *4 H u0 {3,S}
+5 Cd u0 {2,S} {6,D}
+6 Cd u0 {5,D} {7,S}
+7 Cd u0 {6,S} {8,D}
+8 Cd u0 {7,D} {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+forbidden(
+    label = "methoxyphenol",
+    group = 
+"""
+1 *1 Cd u0 {2,D} {8,S}
+2 *2 Cd u0 {1,D} {3,S} {5,S}
+3 *3 O u0 {2,S} {4,S}
+4 *4 C u0 {3,S}
+5 Cd u0 {2,S} {6,D}
+6 Cd u0 {5,D} {7,S}
+7 Cd u0 {6,S} {8,D}
+8 Cd u0 {7,D} {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
