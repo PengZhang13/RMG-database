@@ -7,7 +7,7 @@ longDesc = u"""
 Reaction site *1 should always be a singlet in this family.
 """
 
-template(reactants=["CO", "RR'"], products=["R_CO_R'"], ownReverse=False)
+template(reactants=["CO_birad", "RR'"], products=["R_CO_R'"], ownReverse=False)
 
 reverse = "1,1_Elimination"
 
