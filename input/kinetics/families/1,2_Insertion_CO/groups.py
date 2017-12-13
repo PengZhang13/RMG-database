@@ -22,11 +22,11 @@ recipe(actions=[
 
 entry(
     index = 3,
-    label = "CO",
+    label = "CO_birad",
     group = 
 """
-1 *1 C u0 p1 c-1 {2,T}
-2 *4 O u0 p1 c+1 {1,T}
+1 *1 C u0 p1 {2,T}
+2 *4 O u0 p1 {1,T}
 """,
     kinetics = None,
 )
@@ -764,7 +764,7 @@ entry(
 
 tree(
 """
-L1: CO
+L1: CO_birad
 L1: RR'
     L2: R_H
         L3: H2
