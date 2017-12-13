@@ -4,23 +4,7 @@
 name = "SulfurLibrary"
 shortDesc = u""
 longDesc = u"""
-Thermo Library for Sulfur Compounds
-Unless othewise noted in "Comments," all values are from QM calculations (CBS-QB3 with 1D-HR corrections).
-Uncertainties estimated at 1.00, unless experimental uncertainty available.
 
-References
-[1] Good, W.D. et al. J. Phys. Chem., 1961, 65, 2229-2231.
-[2] McCullough, J.P. et al. J. Am. Chem. Soc., 1957, 79, 561-566.
-[3] Hubbard, W.N.; Waddington, G. Rec. Trav. Chim. Pays/Bas, 1954, 73, 910.
-[4] Hubbard, W.N. et al. J. Phys. Chem., 1958, 62, 614-617.
-[5] Voronkov, M.G. et al. Dokl. Phys. Chem. (Engl. Transl.), 1989, 307, 650-653.
-[6] Scott, D.W. et al. J. Chem. Phys., 1962, 36, 406-412.
-[7] Ruscic, B.; Berkowitz, J., J. Chem. Phys., 1993, 98, 2568-2579.
-[8] Roy, M.; McMahon, T.B. Org. Mass Spectrom., 1982, 8, 392-395.
-[9] Butler, J.J.; Baer, T., Org. Mass Spectrom., 1983, 18, 248-253.
-[10] Chase, M.W., Jr., NIST-JANAF Thermochemical Tables, Fourth Edition, 
-     J. Phys. Chem. Ref. Data, Monograph 9, 1998, 1-1951.
-[11] Alfassi, Z.B., S-centered radicals. 1999.
 """
 entry(
     index = 1,
@@ -40,6 +24,7 @@ entry(
     shortDesc = u"""All from [10]""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -63,6 +48,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -84,6 +70,7 @@ entry(
     shortDesc = u"""All from [10]""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -106,6 +93,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -129,6 +117,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -153,6 +142,7 @@ entry(
     shortDesc = u"""H298 from [1]""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -180,6 +170,7 @@ entry(
     shortDesc = u"""H298 from [5]""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -209,6 +200,7 @@ entry(
     shortDesc = u"""H298 from [5], strong disagreement w/ QM""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -236,6 +228,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -261,6 +254,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -289,6 +283,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -315,6 +310,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -338,6 +334,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -364,6 +361,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -391,6 +389,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -416,6 +415,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -441,6 +441,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -465,6 +466,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -492,6 +494,7 @@ entry(
     shortDesc = u"""H298 from [2]""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -520,6 +523,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -548,6 +552,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -574,6 +579,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -599,6 +605,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -625,6 +632,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -655,6 +663,7 @@ entry(
     shortDesc = u"""H298 from [3]""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -686,6 +695,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -715,6 +725,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -743,6 +754,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -772,6 +784,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -805,6 +818,7 @@ entry(
     shortDesc = u"""H298 from [4]""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -830,6 +844,7 @@ entry(
     shortDesc = u"""Expt available [9]""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -861,6 +876,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -895,6 +911,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -923,6 +940,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -949,6 +967,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -973,6 +992,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -997,6 +1017,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -1025,6 +1046,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -1054,6 +1076,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -1081,6 +1104,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -1108,6 +1132,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -1133,6 +1158,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -1156,6 +1182,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -1182,6 +1209,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -1207,6 +1235,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -1231,6 +1260,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -1261,6 +1291,7 @@ entry(
     shortDesc = u"""H298 from [3]""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -1294,6 +1325,7 @@ entry(
     shortDesc = u"""H298 from [4]""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -1330,6 +1362,7 @@ entry(
     shortDesc = u"""H298 from [6]""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -1361,6 +1394,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -1395,6 +1429,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -1424,6 +1459,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -1456,6 +1492,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -1487,6 +1524,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -1515,6 +1553,7 @@ entry(
     shortDesc = u"""H298 from [5]""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -1544,6 +1583,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -1571,6 +1611,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -1597,6 +1638,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -1626,6 +1668,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -1648,6 +1691,7 @@ entry(
     shortDesc = u"""Expts available [7] and [8]""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -1674,6 +1718,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -1705,6 +1750,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -1739,6 +1785,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -1776,6 +1823,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -1806,6 +1854,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -1833,6 +1882,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -1868,6 +1918,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -1899,6 +1950,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -1928,6 +1980,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -1960,6 +2013,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -1989,6 +2043,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -2024,6 +2079,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -2056,6 +2112,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -2085,6 +2142,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -2115,6 +2173,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -2141,6 +2200,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -2171,6 +2231,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -2205,6 +2266,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -2231,6 +2293,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -2260,6 +2323,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -2291,6 +2355,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -2325,6 +2390,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -2357,6 +2423,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -2391,6 +2458,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -2412,6 +2480,7 @@ multiplicity 2
     shortDesc = u"""All from [10]""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -2436,6 +2505,7 @@ multiplicity 2
     shortDesc = u"""H298, S298 from [11]""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -2461,6 +2531,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -2484,6 +2555,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -2507,6 +2579,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -2529,6 +2602,7 @@ multiplicity 2
     shortDesc = u"""Expt available [11]""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -2554,6 +2628,7 @@ multiplicity 2
     shortDesc = u"""Expts available [11]""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -2577,6 +2652,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -2601,6 +2677,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -2628,6 +2705,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -2656,6 +2734,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -2682,6 +2761,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -2708,6 +2788,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -2733,6 +2814,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -2763,6 +2845,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -2794,6 +2877,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -2823,6 +2907,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -2852,6 +2937,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -2880,6 +2966,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -2905,6 +2992,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -2930,6 +3018,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -2978,6 +3067,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -3006,6 +3096,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -3036,6 +3127,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -3069,6 +3161,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -3097,6 +3190,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -3125,6 +3219,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -3154,6 +3249,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -3182,6 +3278,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -3208,6 +3305,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -3235,6 +3333,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -3263,6 +3362,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -3291,6 +3391,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -3321,6 +3422,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -3354,6 +3456,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -3390,6 +3493,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -3425,6 +3529,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -3446,6 +3551,7 @@ multiplicity 3
     shortDesc = u"""All from [10]""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -3466,6 +3572,7 @@ entry(
     shortDesc = u"""All from [10]""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -3499,6 +3606,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -3532,6 +3640,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -3557,6 +3666,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -3585,6 +3695,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -3610,6 +3721,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -3638,6 +3750,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -3661,6 +3774,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -3684,6 +3798,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -3707,6 +3822,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -3728,6 +3844,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -3755,6 +3872,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -3783,6 +3901,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -3811,6 +3930,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -3844,6 +3964,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -3879,6 +4000,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -3900,6 +4022,7 @@ entry(
     shortDesc = u"""H298 from [10]""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -3922,6 +4045,7 @@ entry(
     shortDesc = u"""H298 from [10]""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -3945,6 +4069,7 @@ entry(
     shortDesc = u"""H298 from [10]""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -3969,6 +4094,7 @@ entry(
     shortDesc = u"""H298 from [10]""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -3994,6 +4120,7 @@ entry(
     shortDesc = u"""H298 from [10]""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -4020,6 +4147,7 @@ entry(
     shortDesc = u"""H298 from [10]""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -4060,6 +4188,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -4099,6 +4228,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -4127,6 +4257,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -4158,6 +4289,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -4187,6 +4319,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -4216,6 +4349,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -4247,6 +4381,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -4278,6 +4413,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -4307,6 +4443,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -4339,6 +4476,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -4369,6 +4507,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -4397,6 +4536,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -4425,6 +4565,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -4453,6 +4594,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -4510,6 +4652,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -4567,6 +4710,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -4604,6 +4748,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -4644,6 +4789,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -4682,6 +4828,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -4720,6 +4867,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -4760,6 +4908,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -4800,6 +4949,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -4838,6 +4988,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -4879,6 +5030,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -4918,6 +5070,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -4975,6 +5128,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -5032,6 +5186,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -5089,6 +5244,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -5146,6 +5302,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -5183,6 +5340,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -5220,6 +5378,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -5257,6 +5416,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -5296,6 +5456,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -5333,6 +5494,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -5366,6 +5528,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -5401,6 +5564,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -5436,6 +5600,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -5471,6 +5636,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -5504,6 +5670,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -5537,6 +5704,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -5574,6 +5742,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -5611,6 +5780,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -5646,6 +5816,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -5679,6 +5850,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -5716,6 +5888,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -5749,6 +5922,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -5779,6 +5953,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -5809,6 +5984,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -5854,6 +6030,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -5899,6 +6076,7 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -5944,6 +6122,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -5989,6 +6168,7 @@ multiplicity 2
     shortDesc = u"""""",
     longDesc = 
 u"""
+
 """,
 )
 
@@ -6012,4 +6192,3 @@ u"""
 Singlet sulfur, thermo data copied from triplet sulfur, likely very incorrect.
 """,
 )
-

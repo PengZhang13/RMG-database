@@ -3719,6 +3719,31 @@ u"""
 """,
 )
 
+# Replaced by a recently calculated value.
+#entry(
+#    index = 138,
+#    label = "Cds-Cds(Cds-Od)H",
+#    group = 
+#"""
+#1 * Cd u0 {2,S} {3,D} {4,S}
+#2   CO u0 {1,S} {5,D}
+#3   Cd u0 {1,D}
+#4   H  u0 {1,S}
+#5   Od u0 {2,D}
+#""",
+#    thermo = ThermoData(
+#        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+#        Cpdata = ([4.46,5.79,6.75,7.42,8.35,9.11,10.09],'cal/(mol*K)','+|-',[0.1,0.1,0.1,0.1,0.1,0.1,0.1]),
+#        H298 = (4.32,'kcal/mol','+|-',0.2),
+#        S298 = (6.38,'cal/(mol*K)','+|-',0.1),
+#    ),
+#    shortDesc = u"""Cd-COH BOZZELLI lit rev Jul91 S,Cp Cd/Cd/H""",
+#    longDesc = 
+#u"""
+#
+#""",
+#)
+
 entry(
     index = 139,
     label = "Cds-Cds(Cds-Cd)H",
@@ -3780,6 +3805,27 @@ u"""
 
 """,
 )
+
+# Replaced by a recently calculated value.
+#entry(
+#    index = 142,
+#    label = "Cds-Cds(Cds-Cdd-Od)H",
+#    group = 
+#"""
+#1 * Cd  u0 {2,S} {4,D} {5,S}
+#2   Cd  u0 {1,S} {3,D}
+#3   Cdd u0 {2,D} {6,D}
+#4   Cd  u0 {1,D}
+#5   H   u0 {1,S}
+#6   Od  u0 {3,D}
+#""",
+#    thermo = u'Cds-Cds(Cds-Cds)H',
+#    shortDesc = u"""""",
+#    longDesc = 
+#u"""
+#
+#""",
+#)
 
 entry(
     index = -1,
@@ -4239,7 +4285,7 @@ entry(
 5   C   u0 {2,D}
 6   Od  u0 {3,D}
 """,
-    thermo = u'Cd-Cd(CO)H',
+    thermo = u'Cds-Cds(Cds-Od)H',
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -4320,7 +4366,7 @@ entry(
 6   C   u0 {3,D}
 7   Od  u0 {4,D}
 """,
-    thermo = u'Cd-Cd(CCO)H',
+    thermo = u'Cds-Cds(Cds-Cdd-Od)H',
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -4586,13 +4632,13 @@ u"""
 
 entry(
     index = 1999,
-    label = "Cd-Cd(CO)H",
+    label = "Cds-Cds(Cds-Od)H",
     group = 
 """
-1 * Cd u0 {2,S} {3,S} {4,D}
+1 * Cd u0 {2,S} {3,D} {4,S}
 2   CO u0 {1,S} {5,D}
-3   H  u0 {1,S}
-4   Cd u0 {1,D}
+3   Cd u0 {1,D}
+4   H  u0 {1,S}
 5   Od u0 {2,D}
 """,
     thermo = ThermoData(
@@ -4612,14 +4658,14 @@ DOI: 10.1002/chem.201301381
 
 entry(
     index = 2000,
-    label = "Cd-Cd(CCO)H",
+    label = "Cds-Cds(Cds-Cdd-Od)H",
     group = 
 """
-1 * Cd  u0 {2,S} {4,S} {5,D}
+1 * Cd  u0 {2,S} {4,D} {5,S}
 2   Cd  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {6,D}
-4   H   u0 {1,S}
-5   Cd  u0 {1,D}
+4   Cd  u0 {1,D}
+5   H   u0 {1,S}
 6   Od  u0 {3,D}
 """,
     thermo = ThermoData(
@@ -5988,6 +6034,31 @@ u"""
 """,
 )
 
+# Replaced by a recently calculated value.
+#entry(
+#    index = 203,
+#    label = "Cds-Cds(Cds-Od)Cs",
+#    group = 
+#"""
+#1 * Cd u0 {2,S} {3,D} {4,S}
+#2   CO u0 {1,S} {5,D}
+#3   Cd u0 {1,D}
+#4   Cs u0 {1,S}
+#5   Od u0 {2,D}
+#""",
+#    thermo = ThermoData(
+#        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+#        Cpdata = ([4.4,5.37,5.93,6.18,6.5,6.62,6.72],'cal/(mol*K)','+|-',[0.1,0.1,0.1,0.1,0.1,0.1,0.1]),
+#        H298 = (7.5,'kcal/mol','+|-',0.24),
+#        S298 = (-14.6,'cal/(mol*K)','+|-',0.12),
+#    ),
+#    shortDesc = u"""Cd-COCs BENSON Hf, Cd/C/Cd =3D S,Cp""",
+#    longDesc = 
+#u"""
+#
+#""",
+#)
+
 entry(
     index = 204,
     label = "Cds-Cds(Cds-Cd)Cs",
@@ -6049,6 +6120,27 @@ u"""
 
 """,
 )
+
+# Replaced by a recently calculated value.
+#entry(
+#    index = 207,
+#    label = "Cds-Cds(Cds-Cdd-Od)Cs",
+#    group = 
+#"""
+#1 * Cd  u0 {2,S} {4,D} {5,S}
+#2   Cd  u0 {1,S} {3,D}
+#3   Cdd u0 {2,D} {6,D}
+#4   Cd  u0 {1,D}
+#5   Cs  u0 {1,S}
+#6   Od  u0 {3,D}
+#""",
+#    thermo = u'Cds-Cds(Cds-Cds)Cs',
+#    shortDesc = u"""""",
+#    longDesc = 
+#u"""
+#
+#""",
+#)
 
 entry(
     index = -1,
@@ -6206,7 +6298,7 @@ entry(
 6   Od  u0 {3,D}
 7   Od  u0 {4,D}
 """,
-    thermo = u'Cd-CdCs(CCO)',
+    thermo = u'Cds-Cds(Cds-Cdd-Od)Cs',
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -6313,7 +6405,7 @@ entry(
 6   Cd  u0 {3,D}
 7   Od  u0 {4,D}
 """,
-    thermo = u'Cd-CdCs(CCO)',
+    thermo = u'Cds-Cds(Cds-Cdd-Od)Cs',
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -7379,7 +7471,7 @@ entry(
 6   C   u0 {3,D}
 7   Od  u0 {4,D}
 """,
-    thermo = u'Cd-CdCs(CCO)',
+    thermo = u'Cds-Cds(Cds-Cdd-Od)Cs',
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -9969,13 +10061,13 @@ u"""
 
 entry(
     index = 1996,
-    label = "Cd-CdCs(CO)",
+    label = "Cds-Cds(Cds-Od)Cs",
     group = 
 """
-1 * Cd u0 {2,S} {3,S} {4,D}
+1 * Cd u0 {2,S} {3,D} {4,S}
 2   CO u0 {1,S} {5,D}
-3   Cs u0 {1,S}
-4   Cd u0 {1,D}
+3   Cd u0 {1,D}
+4   Cs u0 {1,S}
 5   Od u0 {2,D}
 """,
     thermo = ThermoData(
@@ -9995,14 +10087,14 @@ DOI: 10.1002/chem.201301381
 
 entry(
     index = 2011,
-    label = "Cd-CdCs(CCO)",
+    label = "Cds-Cds(Cds-Cdd-Od)Cs",
     group = 
 """
-1 * Cd  u0 {2,S} {4,S} {5,D}
+1 * Cd  u0 {2,S} {4,D} {5,S}
 2   Cd  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {6,D}
-4   Cs  u0 {1,S}
-5   Cd  u0 {1,D}
+4   Cd  u0 {1,D}
+5   Cs  u0 {1,S}
 6   Od  u0 {3,D}
 """,
     thermo = ThermoData(
@@ -12032,6 +12124,31 @@ u"""
 )
 
 entry(
+    index = 1806,
+    label = "Cs-(N3dN3d)CsCsH",
+    group = 
+"""
+1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2   N3d u0 {1,S} {6,D}
+3   Cs  u0 {1,S}
+4   Cs  u0 {1,S}
+5   H   u0 {1,S}
+6   N3d u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (-3.3,'kcal/mol'),
+        S298 = (-11.7,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
     index = 1868,
     label = "Cs-(N3dOd)CsCsH",
     group = 
@@ -12155,56 +12272,6 @@ u"""
 )
 
 entry(
-    index = 1806,
-    label = "Cs-(N3dN3d)CsCsH",
-    group = 
-"""
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   N3d u0 {1,S} {3,D}
-3   N3d u0 {2,D}
-4   Cs  u0 {1,S}
-5   Cs  u0 {1,S}
-6   H   u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (-3.3,'kcal/mol'),
-        S298 = (-11.7,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 1807,
-    label = "Cs-(N3dN3d)CsCsCs",
-    group = 
-"""
-1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
-2   N3d u0 {1,S} {3,D}
-3   N3d u0 {2,D}
-4   Cs  u0 {1,S}
-5   Cs  u0 {1,S}
-6   Cs  u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (-1.9,'kcal/mol'),
-        S298 = (-34.7,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
     index = 1931,
     label = "Cs-N3dCsCsCs",
     group = 
@@ -12220,6 +12287,31 @@ entry(
         Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
         H298 = (0,'kcal/mol'),
         S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 1807,
+    label = "Cs-(N3dN3d)CsCsCs",
+    group = 
+"""
+1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+2   N3d u0 {1,S} {6,D}
+3   Cs  u0 {1,S}
+4   Cs  u0 {1,S}
+5   Cs  u0 {1,S}
+6   N3d u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (-1.9,'kcal/mol'),
+        S298 = (-34.7,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -13452,6 +13544,29 @@ u"""
 """,
 )
 
+# Replaced by a recently calculated value.
+#entry(
+#    index = 364,
+#    label = "Cs-(Cds-Cdd-Od)(Cds-Cds)HH",
+#    group = 
+#"""
+#1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
+#2   Cd  u0 {1,S} {4,D}
+#3   Cd  u0 {1,S} {7,D}
+#4   Cdd u0 {2,D} {8,D}
+#5   H   u0 {1,S}
+#6   H   u0 {1,S}
+#7   Cd  u0 {3,D}
+#8   Od  u0 {4,D}
+#""",
+#    thermo = u'Cs-(Cds-Cdd-Od)CsHH',
+#    shortDesc = u"""""",
+#    longDesc = 
+#u"""
+#
+#""",
+#)
+
 entry(
     index = -1,
     label = "Cs-(Cds-Cdd-Sd)(Cds-Cds)HH",
@@ -13560,7 +13675,7 @@ entry(
 8   Od  u0 {4,D}
 9   C   u0 {5,D}
 """,
-    thermo = u'Cs-Cd(CCO)HH',
+    thermo = u'Cs-(Cds-Cdd-Od)(Cds-Cds)HH',
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -13639,7 +13754,7 @@ u"""
 
 entry(
     index = 2010,
-    label = "Cs-Cd(CCO)HH",
+    label = "Cs-(Cds-Cdd-Od)(Cds-Cds)HH",
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
@@ -13837,7 +13952,7 @@ entry(
 6   H   u0 {1,S}
 7   Od  u0 {3,D}
 """,
-    thermo = u'Cs-Cd(CCO)HH',
+    thermo = u'Cs-(Cds-Cdd-Od)(Cds-Cds)HH',
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -14057,7 +14172,7 @@ entry(
 6   H   u0 {1,S}
 7   Od  u0 {3,D}
 """,
-    thermo = u'Cs-Cd(CCO)HH',
+    thermo = u'Cs-(Cds-Cdd-Od)(Cds-Cds)HH',
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -14898,6 +15013,29 @@ u"""
 """,
 )
 
+# Replaced by a recently calculated value.
+#entry(
+#    index = 410,
+#    label = "Cs-(Cds-Cdd-Od)(Cds-Cds)CsH",
+#    group = 
+#"""
+#1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
+#2   Cd  u0 {1,S} {4,D}
+#3   Cd  u0 {1,S} {7,D}
+#4   Cdd u0 {2,D} {8,D}
+#5   Cs  u0 {1,S}
+#6   H   u0 {1,S}
+#7   Cd  u0 {3,D}
+#8   Od  u0 {4,D}
+#""",
+#    thermo = u'Cs-(Cds-Cdd-Od)CsCsH',
+#    shortDesc = u"""""",
+#    longDesc = 
+#u"""
+#
+#""",
+#)
+
 entry(
     index = -1,
     label = "Cs-(Cds-Cdd-Sd)(Cds-Cds)CsH",
@@ -15008,7 +15146,7 @@ entry(
 8   Od  u0 {4,D}
 9   C   u0 {5,D}
 """,
-    thermo = u'Cs-CsCd(CCO)H',
+    thermo = u'Cs-(Cds-Cdd-Od)(Cds-Cds)CsH',
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -15087,7 +15225,7 @@ u"""
 
 entry(
     index = 2008,
-    label = "Cs-CsCd(CCO)H",
+    label = "Cs-(Cds-Cdd-Od)(Cds-Cds)CsH",
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
@@ -15231,7 +15369,7 @@ entry(
 6   H   u0 {1,S}
 7   Od  u0 {3,D}
 """,
-    thermo = u'Cs-CsCd(CCO)H',
+    thermo = u'Cs-(Cds-Cdd-Od)(Cds-Cds)CsH',
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -15398,7 +15536,7 @@ entry(
 6   H   u0 {1,S}
 7   Od  u0 {3,D}
 """,
-    thermo = u'Cs-CsCd(CCO)H',
+    thermo = u'Cs-(Cds-Cdd-Od)(Cds-Cds)CsH',
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -15936,6 +16074,30 @@ u"""
 """,
 )
 
+# Replaced by a recently calculated value.
+#entry(
+#    index = 452,
+#    label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)H",
+#    group = 
+#"""
+#1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
+#2   Cd  u0 {1,S} {5,D}
+#3   Cd  u0 {1,S} {7,D}
+#4   Cd  u0 {1,S} {8,D}
+#5   Cdd u0 {2,D} {9,D}
+#6   H   u0 {1,S}
+#7   Cd  u0 {3,D}
+#8   Cd  u0 {4,D}
+#9   Od  u0 {5,D}
+#""",
+#    thermo = u'Cs-(Cds-Cdd-Od)CsCsH',
+#    shortDesc = u"""""",
+#    longDesc = 
+#u"""
+#
+#""",
+#)
+
 entry(
     index = -1,
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Sd)H",
@@ -16044,7 +16206,7 @@ entry(
 9    Od  u0 {5,D}
 10   C   u0 {6,D}
 """,
-    thermo = u'Cs-CdCd(CCO)H',
+    thermo = u'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)H',
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -16213,7 +16375,7 @@ entry(
 10   C   u0 {6,D}
 11   C   u0 {7,D}
 """,
-    thermo = u'Cs-CdCd(CCO)H',
+    thermo = u'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)H',
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -16323,7 +16485,7 @@ u"""
 
 entry(
     index = 2009,
-    label = "Cs-CdCd(CCO)H",
+    label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)H",
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
@@ -16580,7 +16742,7 @@ entry(
 7   Cd  u0 {3,D}
 8   Od  u0 {4,D}
 """,
-    thermo = u'Cs-CdCd(CCO)H',
+    thermo = u'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)H',
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -16997,7 +17159,7 @@ entry(
 7   Cd  u0 {3,D}
 8   Od  u0 {4,D}
 """,
-    thermo = u'Cs-CdCd(CCO)H',
+    thermo = u'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)H',
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -17302,7 +17464,7 @@ entry(
 6   H   u0 {1,S}
 7   Od  u0 {3,D}
 """,
-    thermo = u'Cs-CdCd(CCO)H',
+    thermo = u'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)H',
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -17626,7 +17788,7 @@ entry(
 6   H   u0 {1,S}
 7   Od  u0 {3,D}
 """,
-    thermo = u'Cs-CdCd(CCO)H',
+    thermo = u'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)H',
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -19143,6 +19305,29 @@ u"""
 """,
 )
 
+# Replaced by a recently calculated value.
+#entry(
+#    index = 540,
+#    label = "Cs-(Cds-Cdd-Od)(Cds-Cds)CsCs",
+#    group = 
+#"""
+#1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
+#2   Cd  u0 {1,S} {4,D}
+#3   Cd  u0 {1,S} {7,D}
+#4   Cdd u0 {2,D} {8,D}
+#5   Cs  u0 {1,S}
+#6   Cs  u0 {1,S}
+#7   Cd  u0 {3,D}
+#8   Od  u0 {4,D}
+#""",
+#    thermo = u'Cs-(Cds-Cdd-Od)CsCsCs',
+#    shortDesc = u"""""",
+#    longDesc = 
+#u"""
+#
+#""",
+#)
+
 entry(
     index = -1,
     label = "Cs-(Cds-Cdd-Sd)(Cds-Cds)CsCs",
@@ -19251,7 +19436,7 @@ entry(
 8   Od  u0 {4,D}
 9   C   u0 {5,D}
 """,
-    thermo = u'Cs-CsCsCd(CCO)',
+    thermo = u'Cs-(Cds-Cdd-Od)(Cds-Cds)CsCs',
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -19330,7 +19515,7 @@ u"""
 
 entry(
     index = 2007,
-    label = "Cs-CsCsCd(CCO)",
+    label = "Cs-(Cds-Cdd-Od)(Cds-Cds)CsCs",
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {5,S} {6,S}
@@ -19474,7 +19659,7 @@ entry(
 6   Cs  u0 {1,S}
 7   Od  u0 {3,D}
 """,
-    thermo = u'Cs-CsCsCd(CCO)',
+    thermo = u'Cs-(Cds-Cdd-Od)(Cds-Cds)CsCs',
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -19641,7 +19826,7 @@ entry(
 6   Cs  u0 {1,S}
 7   Od  u0 {3,D}
 """,
-    thermo = u'Cs-CsCsCd(CCO)',
+    thermo = u'Cs-(Cds-Cdd-Od)(Cds-Cds)CsCs',
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -42994,154 +43179,7 @@ entry(
     label = "N",
     group = 
 """
-1 * N u0
-""",
-    thermo = u'N3s',
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
-    index = 10001,
-    label = "N1sc",
-    group = 
-"""
-1 * N1sc u0 p3 c-2 {2,S}
-2   R    ux px     {1,S}
-""",
-    thermo = u'N1s',
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Nitrogen with three lone pairs and a single bond (e.g., [NH+]#[N+][N-2])
-""",
-)
-
-entry(
-    index = 10002,
-    label = "N1s",
-    group = 
-"""
-1 * N1s u0 p2
-""",
-    thermo = u'N1s-H',
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Nitrogen with two lone pairs and a single bond
-""",
-)
-
-entry(
-    index = 10003,
-    label = "N1s-H",
-    group = 
-"""
-1 * N1s u0 p2 {2,S}
-2   H   u0 p0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([6.9764,6.9777,6.9982,7.0454,7.2242,7.4742,8.0656],'cal/(mol*K)'),
-        H298 = (85.2952,'kcal/mol'),
-        S298 = (43.3053,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""NH(S)""",
-    longDesc = 
-u"""
-Data base on species NH(S), source: GRIMech3.0-N
-""",
-)
-
-entry(
-    index = 10004,
-    label = "N1s-N1s",
-    group = 
-"""
-1 * N1s u0 p2 {2,S}
-2   N1s u0 p2 {1,S}
-""",
-    thermo = u'N1s-H',
-    shortDesc = u"""[N][N](S)""",
-    longDesc = 
-u"""
-Pointing to NH(S), so far no better alternative
-""",
-)
-
-entry(
-    index = 10005,
-    label = "N1s-Cs",
-    group = 
-"""
-1 * N1s u0 p2 {2,S}
-2   C   u0 p0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([3.00,2.65,2.50,2.49,2.65,2.65,2.57],'cal/(mol*K)'),
-        H298 = (120.94,'kcal/mol'),
-        S298 = (24.25,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""[N]-CH3(S)""",
-    longDesc = 
-u"""
-Data base on species CH3N(S), source: thermo_DFT_CCSDTF12_BAC
-level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
-subtracting the Cs-N2sHHH group
-[N1s-CH3 (N-CH3 species) from thermo_DFT_CCSDTF12_BAC] - [Cs-N2sHHH from group.py]
-""",
-)
-
-entry(
-    index = 10006,
-    label = "N1s-N3s",
-    group = 
-"""
-1 * N1s u0 p2 {2,S}
-2   N   u0 px {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([1.97,2.07,2.25,2.50,3.05,3.48,5.50],'cal/(mol*K)'),
-        H298 = (61.00,'kcal/mol'),
-        S298 = (23.00,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""[N]-NH2(S)""",
-    longDesc = 
-u"""
-Data base on species H2NN(S), source: Curran thermo library
-subtracting the N3s-N3sFF group
-[N1s-NH2 (N-NH2 species) from Curran] - [N3s-N3sHH from group.py]
-""",
-)
-
-entry(
-    index = 10007,
-    label = "N1s-Os",
-    group = 
-"""
-1 * N1s u0 p2 {2,S}
-2   O   u0 px {1,S}
-""",
-    thermo = u'N1s-H',
-    shortDesc = u"""[N]-OH(S)""",
-    longDesc = 
-u"""
-Pointing to NH(S), so far no better alternative
-""",
-)
-
-entry(
-    index = 1922,
-    label = "N1d",
-    group = 
-"""
-1 * N1d u0 p2 {2,D}
-2   R!H ux px {1,D}
+1 * [N1d,N3s,N3d,N3t,N5s,N5d,N5dd,N5t] u0
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -43157,19 +43195,22 @@ u"""
 )
 
 entry(
-    index = 10001,
-    label = "N2s",
+    index = 1922,
+    label = "N1d",
     group = 
 """
-1 * N2s u0 p2 {2,S} (3,S}
-2   R   ux px {1,S}
-3   R   ux px {1,S}
+1 * N1d u0 p2
 """,
-    thermo = u'N1s',
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
     shortDesc = u"""""",
     longDesc = 
 u"""
-Nitrogen with two lone pairs and two single bonds
+
 """,
 )
 
@@ -43180,7 +43221,7 @@ entry(
 """
 1 * N3s u0
 """,
-    thermo = u'N3s-CsHH',
+    thermo = None,
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -43734,24 +43775,6 @@ u"""
 )
 
 entry(
-    index = 1812,
-    label = "N3s-N3dHH",
-    group =
-"""
-1 * N3s u0 {2,S} {3,S} {4,S}
-2   H   u0 {1,S}
-3   H   u0 {1,S}
-4   N3d u0 {1,S}
-""",
-    thermo = u'N3s-N3sHH',
-    shortDesc = u"""""",
-    longDesc =
-u"""
-Currently points to N3s-N3sHH with no better estimate available
-""",
-)
-
-entry(
     index = 1940,
     label = "N3s-NCH",
     group = 
@@ -44167,23 +44190,6 @@ u"""
 )
 
 entry(
-    index = 1907,
-    label = "N3d-CdN3s",
-    group =
-"""
-1 * N3d  u0 {2,D} {3,S}
-2   Cd   u0 {1,D}
-3   N3s  u0 {1,S}
-""",
-    thermo = u'N3d-CdH',
-    shortDesc = u"""""",
-    longDesc =
-u"""
-Currently references to N3d-CdH with no better data
-""",
-)
-
-entry(
     index = 1815,
     label = "N3d-N3dH",
     group = 
@@ -44503,398 +44509,19 @@ u"""
 """,
 )
 
-entry(
-    index = 1919,
-    label = "N3t",
-    group =
-"""
-1 * N3t  u0 p1 {2,T}
-2   R!H  u0 {1,T}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
-        H298 = (0,'kcal/mol'),
-        S298 = (0,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc =
-u"""
-
-""",
-)
-
-entry(
-    index = 1920,
-    label = "N3t-CtH",
-    group =
-"""
-1 * N3t  u0 p1 {2,T}
-2   Ct   u0 {1,T} {3,S}
-3   H    u0 (2,S)
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([5.28,5.68,5.97,6.22,6.6,6.97,6.66],'cal/(mol*K)'),
-        H298 = (3.17,'kcal/mol'),
-        S298 = (41.74,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""""",
-    longDesc =
-u"""
-Calculated by subtracting the data for the Ct-CtCs group (Ct-Cs STEIN and FAHR; J. PHYS. CHEM. 1985, 89, 17, 3714) from respective values from thermo_DFT_CCSDTF12_BAC data for the HCN species.
-""",
-)
-
-entry(
-    index = 1919,
-    label = "CJ2_singlet",
-    group =
-"""
-1 * C u0 p1
-""",
-    thermo = u'CsJ2_singlet-CsH',
-    shortDesc = u"""Branch for singlet carbenes""",
-    longDesc =
-u"""
-
-""",
-)
-
-entry(
-    index = 1920,
-    label = "CsJ2_singlet-HH",
-    group =
-"""
-1 * Cs u0 p1 {2,S} {3,S}
-2 H u0 {1,S}
-3 H u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([8.069, 8.313, 8.631, 8.994, 9.768, 10.497, 11.825],'cal/(mol*K)'),
-        H298 = (102.462,'kcal/mol'),
-        S298 = (45.144,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Fitted to DFT_QCI_thermo library""",
-    longDesc =
-u"""
-Fitted to RQCISD(T)/cc-PV(infinity)(Q)Z calculations of:
-
-Goldsmith, C. F.; Magoon, G. R.; Green, W. H., Database of Small Molecule Thermochemistry for Combustion.
-J. Phys. Chem. A 2012, 116, 9033-9057.
-""",
-)
-
-
-entry(
-    index = 1921,
-    label = "CsJ2_singlet-OsH",
-    group =
-"""
-1 * Cs u0 p1 {2,S} {3,S}
-2 Os u0 {1,S}
-3 H u0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([4.075, 5.312, 6.211, 6.926, 8.355, 9.557, 10.212],'cal/(mol*K)'),
-        H298 = (65.592,'kcal/mol'),
-        S298 = (23.749,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Fitted to DFT_QCI_thermo library""",
-    longDesc =
-u"""
-Fitted to RQCISD(T)/cc-PV(infinity)(Q)Z calculations of:
-
-Goldsmith, C. F.; Magoon, G. R.; Green, W. H., Database of Small Molecule Thermochemistry for Combustion.
-J. Phys. Chem. A 2012, 116, 9033-9057.
-""",
-)
-
-entry(
-    index = 1922,
-    label = "CdJ2_singlet-(Cdd-Od)",
-    group =
-"""
-1 Cdd u0 {2,D} {3,D}
-2 * Cd u0 p1 {1,D}
-3 Od u0 {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([10.135, 11.201, 11.749, 12.051, 12.813, 13.581, 14.122],'cal/(mol*K)'),
-        H298 = (110.367,'kcal/mol'),
-        S298 = (53.61,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Fitted to DFT_QCI_thermo library""",
-    longDesc =
-u"""
-Fitted to RQCISD(T)/cc-PV(infinity)(Q)Z calculations of:
-
-Goldsmith, C. F.; Magoon, G. R.; Green, W. H., Database of Small Molecule Thermochemistry for Combustion.
-J. Phys. Chem. A 2012, 116, 9033-9057.
-""",
-)
-
-entry(
-    index = 1923,
-    label = "CsJ2_singlet-CH",
-    group =
-"""
-1 C u0 {2,S}
-2 * Cs u0 p1 {1,S} {3,S}
-3 H u0 {2,S}
-""",
-    thermo = u'CsJ2_singlet-CsH',
-    shortDesc = u"""Branch for singlet carbenes single-bonded to one carbon and one hydrogen""",
-    longDesc =
-u"""
-
-""",
-)
-
-entry(
-    index = 1924,
-    label = "CsJ2_singlet-CsH",
-    group =
-"""
-1 Cs u0 {2,S}
-2 * Cs u0 p1 {1,S} {3,S}
-3 H u0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([5.255, 5.932, 6.136, 6.192, 6.77, 7.73, 8.134],'cal/(mol*K)'),
-        H298 = (97.669,'kcal/mol'),
-        S298 = (29.684,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Fitted to DFT_QCI_thermo library""",
-    longDesc =
-u"""
-Fitted to RQCISD(T)/cc-PV(infinity)(Q)Z calculations of:
-
-Goldsmith, C. F.; Magoon, G. R.; Green, W. H., Database of Small Molecule Thermochemistry for Combustion.
-J. Phys. Chem. A 2012, 116, 9033-9057.
-""",
-)
-
-entry(
-    index = 1925,
-    label = "CsJ2_singlet-CtH",
-    group =
-"""
-1 Ct u0 {2,S}
-2 * Cs u0 p1 {1,S} {3,S}
-3 H u0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([5.675, 6.472, 6.776, 6.9, 7.469, 8.156, 7.58],'cal/(mol*K)'),
-        H298 = (88.247,'kcal/mol'),
-        S298 = (28.407,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Fitted to DFT_QCI_thermo library""",
-    longDesc =
-u"""
-Fitted to RQCISD(T)/cc-PV(infinity)(Q)Z calculations of:
-
-Goldsmith, C. F.; Magoon, G. R.; Green, W. H., Database of Small Molecule Thermochemistry for Combustion.
-J. Phys. Chem. A 2012, 116, 9033-9057.
-""",
-)
-
-entry(
-    index = 1926,
-    label = "CdJ2_singlet-Cd",
-    group =
-"""
-1 C u0 {2,D}
-2 * Cd u0 p1 {1,D}
-""",
-    thermo = u'CdJ2_singlet-Cds',
-    shortDesc = u"""Branch for singlet carbenes double-bonded to one carbon""",
-    longDesc =
-u"""
-
-""",
-)
-
-entry(
-    index = 1927,
-    label = "CdJ2_singlet-Cds",
-    group =
-"""
-1 Cd u0 {2,D}
-2 * Cd u0 p1 {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([5.372, 5.272, 4.916, 4.506, 4.219, 4.263, 3.97],'cal/(mol*K)'),
-        H298 = (92.157,'kcal/mol'),
-        S298 = (26.864,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Fitted to DFT_QCI_thermo library""",
-    longDesc =
-u"""
-Fitted to RQCISD(T)/cc-PV(infinity)(Q)Z calculations of:
-
-Goldsmith, C. F.; Magoon, G. R.; Green, W. H., Database of Small Molecule Thermochemistry for Combustion.
-J. Phys. Chem. A 2012, 116, 9033-9057.
-""",
-)
-
-entry(
-    index = 1928,
-    label = "CdJ2_singlet-(Cdd-Cds)",
-    group =
-"""
-1 Cdd u0 {2,D} {3,D)
-2 * Cd u0 p1 {1,D}
-3 C u0 {1,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([3.406, 3.333, 3.175, 3.019, 3.156, 3.468, 3.593],'cal/(mol*K)'),
-        H298 = (91.676,'kcal/mol'),
-        S298 = (26.434,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""Fitted to DFT_QCI_thermo library""",
-    longDesc =
-u"""
-Fitted to RQCISD(T)/cc-PV(infinity)(Q)Z calculations of:
-
-Goldsmith, C. F.; Magoon, G. R.; Green, W. H., Database of Small Molecule Thermochemistry for Combustion.
-J. Phys. Chem. A 2012, 116, 9033-9057.
-""",
-)
-
-entry(
-    index = 1929,
-    label = "CsJ2_singlet-(Cds-Cds-Cds-C)C",
-    group =
-"""
-1  C u0 {2,D}
-2  Cd u0 {1,D} {6,S}
-3  C u0 {4,S}
-4 * Cs u0 p1 {3,S} {5,S}
-5  Cd u0 {6,D} {4,S}
-6  Cd u0 {2,S} {5,D}
-""",
-    thermo = u'CsJ2_singlet-(Cds-Cds-Cds-Cds)Cs_6_ring',
-    shortDesc = u"""Branch for singlet carbenes delocalized over two conjugated carbon double bonds""",
-    longDesc =
-u"""
-
-""",
-)
-
-entry(
-    index = 1930,
-    label = "CsJ2_singlet-(Cds-Cds-Cds-Cds)Cs_5_ring",
-    group =
-"""
-1  Cd u0 {2,D}
-2  Cd u0 {1,D} {6,S} {3,S}
-3  Cs u0 {4,S} {2,S}
-4 * Cs u0 p1 {3,S} {5,S}
-5  Cd u0 {6,D} {4,S}
-6  Cd u0 {2,S} {5,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([4.025, 5.12, 5.268, 4.917, 4.799, 5.731, 5.087],'cal/(mol*K)'),
-        H298 = (82.041,'kcal/mol'),
-        S298 = (10.325,'cal/(mol*K)'),
-    ),
-    shortDesc=u"""Fitted to DFT_QCI_thermo library""",
-    longDesc=
-    u"""
-    Fitted to RQCISD(T)/cc-PV(infinity)(Q)Z calculations of:
-
-    Goldsmith, C. F.; Magoon, G. R.; Green, W. H., Database of Small Molecule Thermochemistry for Combustion.
-    J. Phys. Chem. A 2012, 116, 9033-9057.
-    """,
-)
-
-entry(
-    index = 1931,
-    label = "CsJ2_singlet-(Cds-Cds-Cds-Cds)Cs_6_ring",
-    group =
-"""
-1  Cd u0 {2,D} {3,S}
-2  Cd u0 {1,D} {6,S}
-3  Cs u0 {4,S} {1,S}
-4 * Cs u0 p1 {3,S} {5,S}
-5  Cd u0 {6,D} {4,S}
-6  Cd u0 {2,S} {5,D}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([4.322, 5.406, 5.554, 5.182, 5.008, 5.927, 5.232],'cal/(mol*K)'),
-        H298 = (80.263,'kcal/mol'),
-        S298 = (12.963,'cal/(mol*K)'),
-    ),
-    shortDesc=u"""Fitted to DFT_QCI_thermo library""",
-    longDesc=
-    u"""
-    Fitted to RQCISD(T)/cc-PV(infinity)(Q)Z calculations of:
-
-    Goldsmith, C. F.; Magoon, G. R.; Green, W. H., Database of Small Molecule Thermochemistry for Combustion.
-    J. Phys. Chem. A 2012, 116, 9033-9057.
-    """,
-)
-
-entry(
-    index = 1932,
-    label = "Cds-(Cds-Os)CbH",
-    group =
-"""
-1 * Cd u0 {2,D} {3,S} {4,S}
-2   Cd u0 {1,D} {5,S}
-3   Cb u0 {1,S}
-4   H  u0 {1,S}
-5   Os u0 {2,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([5.28, 6.83, 7.245, 7.264, 8.226, 9.901, 10.176],'cal/(mol*K)'),
-        H298 = (10.329,'kcal/mol'),
-        S298 = (2.958,'cal/(mol*K)'),
-    ),
-    shortDesc = u"""CBS-QB3""",
-    longDesc =
-u"""
-Fitted to CBS-QB3 calculations for OC=Cc1ccccc1
-""",
-)
-
 tree(
 """
 L1: R
     L2: C
-        L3: CJ2_singlet
-            L4: CsJ2_singlet-HH
-            L4: CsJ2_singlet-OsH
-            L4: CdJ2_singlet-(Cdd-Od)
-            L4: CsJ2_singlet-CH
-                L5: CsJ2_singlet-CsH
-                L5: CsJ2_singlet-CtH
-            L4: CdJ2_singlet-Cd
-                L5: CdJ2_singlet-Cds
-                L5: CdJ2_singlet-(Cdd-Cds)
-            L4: CsJ2_singlet-(Cds-Cds-Cds-C)C
-                L5: CsJ2_singlet-(Cds-Cds-Cds-Cds)Cs_5_ring
-                L5: CsJ2_singlet-(Cds-Cds-Cds-Cds)Cs_6_ring
         L3: Cbf
             L4: Cbf-CbCbCbf
             L4: Cbf-CbCbfCbf
             L4: Cbf-CbfCbfCbf
-        L3: Cb
+        L3: Cb       
             L4: Cb-H
             L4: Cb-Os
             L4: Cb-Ss
-            L4: Cb-N3s
+            L4: Cb-N3s 
             L4: Cb-C
                 L5: Cb-Cs
                 L5: Cb-Cds
@@ -45067,17 +44694,16 @@ L1: R
             L4: Cds-CdCH
                 L5: Cds-CdsCsH
                 L5: Cds-CdsCdsH
-                    L6: Cd-Cd(CO)H
+                    L6: Cds-Cds(Cds-Od)H
                     L6: Cds-Cds(Cds-Cd)H
                         L7: Cds-Cds(Cds-Cds)H
                         L7: Cds-Cds(Cds-Cdd)H
-                            L8: Cd-Cd(CCO)H
+                            L8: Cds-Cds(Cds-Cdd-Od)H
                             L8: Cds-Cds(Cds-Cdd-Sd)H
                             L8: Cds-Cds(Cds-Cdd-Cd)H
                 L5: Cds-CdsCtH
                     L6: Cds-CdsH(CtN3t)
                 L5: Cds-CdsCbH
-                    L6: Cds-(Cds-Os)CbH
                 L5: Cds-CddCsH
                     L6: Cds-(Cdd-Od)CsH
                     L6: Cds-(Cdd-Sd)CsH
@@ -45180,11 +44806,11 @@ L1: R
             L4: Cds-CdCC
                 L5: Cds-CdsCsCs
                 L5: Cds-CdsCdsCs
-                    L6: Cd-CdCs(CO)
+                    L6: Cds-Cds(Cds-Od)Cs
                     L6: Cds-Cds(Cds-Cd)Cs
                         L7: Cds-Cds(Cds-Cds)Cs
                         L7: Cds-Cds(Cds-Cdd)Cs
-                            L8: Cd-CdCs(CCO)
+                            L8: Cds-Cds(Cds-Cdd-Od)Cs
                             L8: Cds-Cds(Cds-Cdd-Sd)Cs
                             L8: Cds-Cds(Cds-Cdd-Cd)Cs
                 L5: Cds-CdsCdsCds
@@ -45469,15 +45095,15 @@ L1: R
             L4: Cs-NCsCsH
                 L5: Cs-N3sCsCsH
                 L5: Cs-N3dCsCsH
-                    L6: Cs-(N3dOd)CsCsH
                     L6: Cs-(N3dN3d)CsCsH
+                    L6: Cs-(N3dOd)CsCsH
                 L5: Cs-N5dCsCsH
                     L6: Cs-(N5dOdOs)CsCsH
             L4: Cs-NCsCsCs
                 L5: Cs-N3sCsCsCs
                 L5: Cs-N3dCsCsCs
-                    L6: Cs-(N3dOd)CsCsCs
                     L6: Cs-(N3dN3d)CsCsCs
+                    L6: Cs-(N3dOd)CsCsCs
                 L5: Cs-N5dCsCsCs
                     L6: Cs-(N5dOdOs)CsCsCs
             L4: Cs-NNCsCs
@@ -45529,7 +45155,7 @@ L1: R
                     L6: Cs-(Cds-Cd)(Cds-Cd)HH
                         L7: Cs-(Cds-Cds)(Cds-Cds)HH
                         L7: Cs-(Cds-Cdd)(Cds-Cds)HH
-                            L8: Cs-Cd(CCO)HH
+                            L8: Cs-(Cds-Cdd-Od)(Cds-Cds)HH
                             L8: Cs-(Cds-Cdd-Sd)(Cds-Cds)HH
                             L8: Cs-(Cds-Cdd-Cd)(Cds-Cds)HH
                         L7: Cs-(Cds-Cdd)(Cds-Cdd)HH
@@ -45593,7 +45219,7 @@ L1: R
                     L6: Cs-(Cds-Cd)(Cds-Cd)CsH
                         L7: Cs-(Cds-Cds)(Cds-Cds)CsH
                         L7: Cs-(Cds-Cdd)(Cds-Cds)CsH
-                            L8: Cs-CsCd(CCO)H
+                            L8: Cs-(Cds-Cdd-Od)(Cds-Cds)CsH
                             L8: Cs-(Cds-Cdd-Sd)(Cds-Cds)CsH
                             L8: Cs-(Cds-Cdd-Cd)(Cds-Cds)CsH
                         L7: Cs-(Cds-Cdd)(Cds-Cdd)CsH
@@ -45639,7 +45265,7 @@ L1: R
                     L6: Cs-(Cds-Cd)(Cds-Cd)(Cds-Cd)H
                         L7: Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)H
                         L7: Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd)H
-                            L8: Cs-CdCd(CCO)H
+                            L8: Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)H
                             L8: Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Sd)H
                             L8: Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)H
                         L7: Cs-(Cds-Cds)(Cds-Cdd)(Cds-Cdd)H
@@ -45784,7 +45410,7 @@ L1: R
                     L6: Cs-(Cds-Cd)(Cds-Cd)CsCs
                         L7: Cs-(Cds-Cds)(Cds-Cds)CsCs
                         L7: Cs-(Cds-Cdd)(Cds-Cds)CsCs
-                            L8: Cs-CsCsCd(CCO)
+                            L8: Cs-(Cds-Cdd-Od)(Cds-Cds)CsCs
                             L8: Cs-(Cds-Cdd-Sd)(Cds-Cds)CsCs
                             L8: Cs-(Cds-Cdd-Cd)(Cds-Cds)CsCs
                         L7: Cs-(Cds-Cdd)(Cds-Cdd)CsCs
@@ -46882,15 +46508,7 @@ L1: R
                 L5: Ss-C=SCd
                 L5: Ss-C=SCb
     L2: N
-        L3: N1sc
-		L3: N1s
-			L4:	N1s-H
-			L4:	N1s-N1s
-			L4:	N1s-Cs
-			L4:	N1s-N3s
-			L4:	N1s-Os
         L3: N1d
-		L3: N2s
         L3: N3s
             L4: N3s-CHH
                 L5: N3s-CsHH
@@ -46915,7 +46533,6 @@ L1: R
                 L5: N3s-(CtN3t)CsCs
                 L5: N3s-(CdCd)CsCs
             L4: N3s-N3sHH
-            L4: N3s-N3dHH
             L4: N3s-NCH
                 L5: N3s-N3sCsH
                 L5: N3s-N3sCbH
@@ -46934,7 +46551,6 @@ L1: R
             L4: N3s-OsHH
         L3: N3d
             L4: N3d-CdH
-            L4: N3d-CdN3s
             L4: N3d-N3dH
             L4: N3d-N3dN3s
             L4: N3d-OdOs
@@ -46944,8 +46560,6 @@ L1: R
                 L5: N3d-CdCs
                 L5: N3d-N3dCs
             L4: N3d-CbR
-        L3: N3t
-            L4: N3t-CtH
         L3: N5d
             L4: N5d-OdOsCs
             L4: N5d-OdOsCd
